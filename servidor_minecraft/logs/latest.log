@@ -1,0 +1,630 @@
+[26May2025 20:13:30.078] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[26May2025 20:13:30.080] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.27 by Ubuntu
+[26May2025 20:13:30.274] [main/INFO] [gg.essential.container.loader.stage0.EssentialLoader/]: Updating stage1 to version 7 from jar:file:/workspaces/tuputamadreland/servidor_minecraft/mods/essential_1-3-2-4_forge_1-16-5.jar!/gg/essential/loader/stage0/stage1.jar
+[26May2025 20:13:30.283] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Updating Essential Loader (stage2) version 1.6.0 (803a2495ed3a045e5562adaa44d1170e) from jar:file:/workspaces/tuputamadreland/servidor_minecraft/mods/essential_1-3-2-4_forge_1-16-5.jar!/stage2_1-6-0_forge_1-16-5.jar
+[26May2025 20:13:30.861] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Found newer Essential Loader (stage2) version 1.6.2 [stable]
+[26May2025 20:13:30.862] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Starting Essential Loader (stage2) version 1.6.0 (803a2495ed3a045e5562adaa44d1170e) [stable]
+[26May2025 20:13:30.873] [main/INFO] [gg.essential.loader.stage2.LoaderLoggingUI/]: Downloading 52709KB of updates...
+[26May2025 20:13:30.874] [main/INFO] [gg.essential.loader.stage2.LoaderLoggingUI/]: 1KB / 52709KB (0%)
+[26May2025 20:13:31.551] [main/INFO] [gg.essential.loader.stage2.EssentialLoaderBase/]: Found newer Essential version 1.3.6.2 [stable]
+[26May2025 20:13:31.699] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[26May2025 20:13:31.810] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/tuputamadreland/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[26May2025 20:13:31.846] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/tuputamadreland/servidor_minecraft/config/fml.toml is not correct. Correcting
+[26May2025 20:13:31.851] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[26May2025 20:13:32.498] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.590] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.597] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.603] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.609] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.615] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.620] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.626] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.630] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.635] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:32.639] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[26May2025 20:13:33.972] [main/ERROR] [mixin/]: Mixin config mixins.ecu.json does not specify "minVersion" property
+[26May2025 20:13:33.974] [main/ERROR] [mixin/]: Mixin config boss_tools.mixin.json does not specify "minVersion" property
+[26May2025 20:13:34.081] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[26May2025 20:13:34.082] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[26May2025 20:13:34.226] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.0+mc1.16.5: 89 options available, 0 override(s) found
+[26May2025 20:13:35.113] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[26May2025 20:13:35.198] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 135 options available, 0 override(s) found
+[26May2025 20:13:35.249] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/tuputamadreland/servidor_minecraft/config/balanced_flight.toml is not correct. Correcting
+[26May2025 20:13:35.250] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26May2025 20:13:35.250] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Flight Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Flight Options.Ascended Ring Gives Unlimited Creative Flight (will fall back to Basic tier inside range) was corrected from null to its default, true. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Flight Options.Ascended Ring Also Works As Elytra was corrected from null to its default, true. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Flight Options.Basic Ring Gives Creative Flight was corrected from null to its default, true. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Flight Options.Basic Flight Ring Also Works As Elytra was corrected from null to its default, false. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Balancing Config was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26May2025 20:13:35.251] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Balancing Config.Anchor Distance Multiplier (0->10) was corrected from null to its default, 1.0. 
+[26May2025 20:13:35.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Balancing Config.Disable Fall Damage When Wearing Rings was corrected from null to its default, true. 
+[26May2025 20:13:35.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Balancing Config.Disable Elytra Damage When Wearing Rings was corrected from null to its default, true. 
+[26May2025 20:13:35.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Enhanced Elytra Mechanics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26May2025 20:13:35.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Enhanced Elytra Mechanics.Enable Elytra Flight From Ground was corrected from null to its default, true. 
+[26May2025 20:13:35.252] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Enhanced Elytra Mechanics.Enable Take Off Mechanic was corrected from null to its default, true. 
+[26May2025 20:13:35.253] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Settings.Enhanced Elytra Mechanics.Infinite Rockets was corrected from null to its default, true. 
+[26May2025 20:13:35.317] [main/INFO] [Essential Logger - Plugin/]: Starting Essential v1.3.2.4 (#6b55293e12) [stable]
+[26May2025 20:13:35.370] [main/WARN] [mixin/]: Reference map 'rhino-forge-refmap.json' for rhino.mixins.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:13:35.383] [main/WARN] [mixin/]: Reference map 'createdeco.refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:13:35.383] [main/WARN] [mixin/]: Reference map 'hackforge.refmap.json' for creategears.mixins.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:13:35.384] [main/WARN] [mixin/]: Reference map 'creategearaddon.refmap.json' for creategearaddon.mixins.json could not be read. If this is a development environment you can ignore this message
+[26May2025 20:13:35.394] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 30 options available, 0 override(s) found
+[26May2025 20:13:36.229] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ConnectingScreen$1 (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.229] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ConnectingScreen$1 was not found fastipping.mixins.json:ConnectScreenThreadMixin
+[26May2025 20:13:36.229] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ConnectScreen$1 (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.229] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ConnectScreen$1 was not found fastipping.mixins.json:ConnectScreenThreadMixin
+[26May2025 20:13:36.230] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.230] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/ServerPinger (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.230] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.ServerPinger was not found fastipping.mixins.json:MultiplayerServerListPingerMixin
+[26May2025 20:13:36.263] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.263] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.263] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found balancedflight.mixins.json:ConnectionAccessor
+[26May2025 20:13:36.267] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.268] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.268] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found balancedflight.mixins.json:ElytraMixin
+[26May2025 20:13:36.271] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.271] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.272] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found balancedflight.mixins.json:ElytraRocketShiftKeyMixin
+[26May2025 20:13:36.358] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraftforge/client/event/GuiScreenEvent for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.358] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: java.lang.RuntimeException: Attempted to load class net/minecraftforge/client/event/GuiScreenEvent for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.359] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
+[26May2025 20:13:36.359] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.359] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.359] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.360] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142)
+[26May2025 20:13:36.360] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$null$8(LaunchPluginHandler.java:97)
+[26May2025 20:13:36.360] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+[26May2025 20:13:36.360] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.hasClass(Plugin.java:213)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.shouldApplyMixin(Plugin.java:149)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:987)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:952)
+[26May2025 20:13:36.361] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:881)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:850)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:775)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+[26May2025 20:13:36.362] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+[26May2025 20:13:36.363] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+[26May2025 20:13:36.363] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+[26May2025 20:13:36.363] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+[26May2025 20:13:36.363] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+[26May2025 20:13:36.363] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.364] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.364] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.364] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[26May2025 20:13:36.364] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[26May2025 20:13:36.364] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName0(Native Method)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName(Class.java:398)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[26May2025 20:13:36.365] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[26May2025 20:13:36.366] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[26May2025 20:13:36.366] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[26May2025 20:13:36.366] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49)
+[26May2025 20:13:36.366] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46)
+[26May2025 20:13:36.366] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43)
+[26May2025 20:13:36.397] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.398] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.399] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
+[26May2025 20:13:36.399] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.400] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.400] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.400] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142)
+[26May2025 20:13:36.401] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$null$8(LaunchPluginHandler.java:97)
+[26May2025 20:13:36.401] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+[26May2025 20:13:36.401] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+[26May2025 20:13:36.401] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.hasClass(Plugin.java:213)
+[26May2025 20:13:36.401] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.shouldApplyMixin(Plugin.java:149)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:987)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:952)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:881)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:850)
+[26May2025 20:13:36.402] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:775)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+[26May2025 20:13:36.403] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+[26May2025 20:13:36.404] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+[26May2025 20:13:36.404] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+[26May2025 20:13:36.405] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.406] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.406] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.406] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName0(Native Method)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName(Class.java:398)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[26May2025 20:13:36.407] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46)
+[26May2025 20:13:36.408] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43)
+[26May2025 20:13:36.420] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.421] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:142)
+[26May2025 20:13:36.422] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$null$8(LaunchPluginHandler.java:97)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.hasClass(Plugin.java:213)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at gg.essential.mixins.Plugin.shouldApplyMixin(Plugin.java:149)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.PluginHandle.shouldApplyMixin(PluginHandle.java:132)
+[26May2025 20:13:36.423] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.shouldApplyMixin(MixinInfo.java:987)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.readDeclaredTargets(MixinInfo.java:952)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:881)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:850)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:775)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462)
+[26May2025 20:13:36.424] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154)
+[26May2025 20:13:36.425] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName0(Native Method)
+[26May2025 20:13:36.426] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at java.base/java.lang.Class.forName(Class.java:398)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[26May2025 20:13:36.427] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49)
+[26May2025 20:13:36.428] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46)
+[26May2025 20:13:36.428] [main/INFO] [STDERR/]: [gg.essential.mixins.Plugin:hasClass:218]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43)
+[26May2025 20:13:36.471] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/systems/RenderSystem (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.471] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.systems.RenderSystem was not found mixins.essential.json:client.Mixin_SuppressScreenshotBufferFlip
+[26May2025 20:13:36.473] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/KeyboardListener for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.473] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/KeyboardListener (java.lang.RuntimeException: Attempted to load class net/minecraft/client/KeyboardListener for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.473] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.KeyboardListener was not found mixins.essential.json:client.Mixin_CancelVanillaScreenshotHotkey
+[26May2025 20:13:36.474] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/KeyboardListener for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.475] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/KeyboardListener (java.lang.RuntimeException: Attempted to load class net/minecraft/client/KeyboardListener for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.475] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.KeyboardListener was not found mixins.essential.json:client.Mixin_GuiKeyTypedEvent
+[26May2025 20:13:36.482] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.482] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.482] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.essential.json:client.Mixin_RunEssentialTasks
+[26May2025 20:13:36.488] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.488] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.488] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.essential.json:client.MixinMinecraft
+[26May2025 20:13:36.490] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.491] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.491] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:client.MouseHelperAccessor
+[26May2025 20:13:36.582] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.582] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/ClientPlayNetHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.583] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.ClientPlayNetHandler was not found mixins.essential.json:client.commands.ClientPlayNetHandlerMixin_CommandRegistration
+[26May2025 20:13:36.598] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/AbstractClientPlayerEntity for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.598] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/AbstractClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/AbstractClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.599] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.AbstractClientPlayerEntity was not found mixins.essential.json:client.entity.MixinAbstractClientPlayer
+[26May2025 20:13:36.600] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.601] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/MultiplayerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.601] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.MultiplayerScreen was not found mixins.essential.json:client.gui.GuiMultiplayerAccessor
+[26May2025 20:13:36.619] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.619] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.620] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.Screen was not found mixins.essential.json:client.gui.GuiScreenAccessor
+[26May2025 20:13:36.620] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/NewChatGui (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.621] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.NewChatGui was not found mixins.essential.json:client.gui.Mixin_ChatPeek
+[26May2025 20:13:36.622] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.622] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/MultiplayerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.622] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.MultiplayerScreen was not found mixins.essential.json:client.gui.Mixin_FixEnterToConnectInCustomTabs
+[26May2025 20:13:36.630] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.631] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.631] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel
+[26May2025 20:13:36.632] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/InventoryScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.632] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.InventoryScreen was not found mixins.essential.json:client.gui.Mixin_FixPlayerInventoryLightingOn116
+[26May2025 20:13:36.633] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.633] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.633] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ServerSelectionList$NormalEntry was not found mixins.essential.json:client.gui.Mixin_PreventMovingOfServersInCustomTabs
+[26May2025 20:13:36.643] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.643] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.643] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.essential.json:client.gui.Mixin_RecalculateMenuScale
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/NewChatGui (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.NewChatGui was not found mixins.essential.json:client.gui.Mixin_RemoveChatLimit
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/InventoryScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.InventoryScreen was not found mixins.essential.json:client.gui.Mixin_UI3DPlayer_FixNameTagRotation
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ChatScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.644] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ChatScreen was not found mixins.essential.json:client.gui.MixinGuiChat
+[26May2025 20:13:36.646] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/InventoryScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.646] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.InventoryScreen was not found mixins.essential.json:client.gui.MixinGuiInventory_UI3DPlayerOffset
+[26May2025 20:13:36.647] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/MainMenuScreen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.648] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/MainMenuScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/MainMenuScreen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.648] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.MainMenuScreen was not found mixins.essential.json:client.gui.MixinGuiMainMenu
+[26May2025 20:13:36.649] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.650] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/MultiplayerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/MultiplayerScreen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.650] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.MultiplayerScreen was not found mixins.essential.json:client.gui.MixinGuiMultiplayer
+[26May2025 20:13:36.650] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/DisconnectedScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.651] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.DisconnectedScreen was not found mixins.essential.json:client.gui.MixinGuiDisconnected_AddInvalidSessionRefreshGui
+[26May2025 20:13:36.651] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/NewChatGui (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.651] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.NewChatGui was not found mixins.essential.json:client.gui.MixinGuiNewChat
+[26May2025 20:13:36.651] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/overlay/PlayerTabOverlayGui (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.651] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.overlay.PlayerTabOverlayGui was not found mixins.essential.json:client.gui.MixinGuiPlayerTabOverlay
+[26May2025 20:13:36.658] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.658] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.659] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.Screen was not found mixins.essential.json:client.gui.MixinGuiScreen
+[26May2025 20:13:36.660] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MainWindow for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.660] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MainWindow (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MainWindow for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.660] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MainWindow was not found mixins.essential.json:client.gui.Mixin_ScaleForMainMenu
+[26May2025 20:13:36.661] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$LanScanEntry for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.661] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ServerSelectionList$LanScanEntry (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$LanScanEntry for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.661] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ServerSelectionList$LanScanEntry was not found mixins.essential.json:client.gui.MixinServerListEntryLanScan
+[26May2025 20:13:36.662] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.662] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.662] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ServerSelectionList$NormalEntry was not found mixins.essential.json:client.gui.MixinServerListEntryNormal
+[26May2025 20:13:36.663] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.663] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList$NormalEntry for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.664] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ServerSelectionList$NormalEntry was not found mixins.essential.json:client.gui.ServerListEntryNormalAccessor
+[26May2025 20:13:36.664] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.665] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ServerSelectionList (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/ServerSelectionList for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.665] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ServerSelectionList was not found mixins.essential.json:client.gui.ServerSelectionListAccessor
+[26May2025 20:13:36.665] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/InventoryScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.668] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.InventoryScreen was not found mixins.essential.json:client.gui.inventory.Mixin_DisableCosmeticsInInventory
+[26May2025 20:13:36.669] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/model/PlayerModel (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.671] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.model.PlayerModel was not found mixins.essential.json:client.model.ModelPlayerAccessor
+[26May2025 20:13:36.671] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ConnectingScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.671] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.ConnectingScreen was not found mixins.essential.json:client.multiplayer.MixinGuiConnecting_SetMostRecentlyConnectedMultiplayerServer
+[26May2025 20:13:36.674] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ServerData for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.675] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ServerData (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ServerData for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.675] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.ServerData was not found mixins.essential.json:client.multiplayer.MixinServerData
+[26May2025 20:13:36.703] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.704] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/ClientPlayNetHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.704] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.ClientPlayNetHandler was not found mixins.essential.json:client.network.Mixin_JoinEvent
+[26May2025 20:13:36.708] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/NetworkPlayerInfo for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.709] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/NetworkPlayerInfo (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/NetworkPlayerInfo for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.709] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.NetworkPlayerInfo was not found mixins.essential.json:client.network.Mixin_RefreshSkinOnChange
+[26May2025 20:13:36.720] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.720] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/ClientPlayNetHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.720] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.ClientPlayNetHandler was not found mixins.essential.json:client.network.Mixin_RegisterEssentialChannel
+[26May2025 20:13:36.730] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.730] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/ClientPlayNetHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.731] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.ClientPlayNetHandler was not found mixins.essential.json:client.network.Mixin_SendChatEvents
+[26May2025 20:13:36.740] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.740] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/play/ClientPlayNetHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/play/ClientPlayNetHandler for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.740] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.play.ClientPlayNetHandler was not found mixins.essential.json:client.network.Mixin_TabListNameIdCache
+[26May2025 20:13:36.741] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.741] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/ServerPinger (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.742] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.ServerPinger was not found mixins.essential.json:client.network.MixinServerPinger
+[26May2025 20:13:36.744] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.744] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameSettings (java.lang.RuntimeException: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.744] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameSettings was not found mixins.essential.json:client.options.GameOptionsAccessor
+[26May2025 20:13:36.745] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/settings/KeyBinding for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.746] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/settings/KeyBinding (java.lang.RuntimeException: Attempted to load class net/minecraft/client/settings/KeyBinding for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.746] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.settings.KeyBinding was not found mixins.essential.json:client.options.KeyBindingAccessor
+[26May2025 20:13:36.748] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.748] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameSettings (java.lang.RuntimeException: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.749] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameSettings was not found mixins.essential.json:client.options.MixinGameOptions
+[26May2025 20:13:36.785] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/FirstPersonRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.785] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/FirstPersonRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/FirstPersonRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.785] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.FirstPersonRenderer was not found mixins.essential.json:client.renderer.Mixin_HideHandWhenZoomed
+[26May2025 20:13:36.787] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.788] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.788] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found mixins.essential.json:client.renderer.MixinEntityRenderer_Zoom
+[26May2025 20:13:36.788] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/DownloadingTexture (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.788] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.DownloadingTexture was not found mixins.essential.json:client.renderer.MixinPlayerSkinTexture
+[26May2025 20:13:36.789] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/model/BipedModel (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.789] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.model.BipedModel was not found mixins.essential.json:client.renderer.entity.Mixin_ApplyPoseTransform
+[26May2025 20:13:36.789] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.789] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found mixins.essential.json:client.renderer.entity.Mixin_ApplyPoseTransform_Cape
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/model/ElytraModel (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.model.ElytraModel was not found mixins.essential.json:client.renderer.entity.Mixin_ApplyPoseTransform_Elytra
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ParrotVariantLayer (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ParrotVariantLayer was not found mixins.essential.json:client.renderer.entity.Mixin_ApplyPoseTransform_EntityOnShoulder
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.790] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found mixins.essential.json:client.renderer.entity.Mixin_CosmeticHoverOutline_Cape
+[26May2025 20:13:36.821] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/EntityRendererManager for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.821] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/EntityRendererManager (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/EntityRendererManager for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.822] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.EntityRendererManager was not found mixins.essential.json:client.renderer.entity.Mixin_DontRenderHitboxOnEmulatedPlayer
+[26May2025 20:13:36.822] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.822] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/EntityRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.822] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.EntityRenderer was not found mixins.essential.json:client.renderer.entity.Mixin_WorkaroundIncorrectFrustumCheckAtHighSpeed
+[26May2025 20:13:36.823] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.823] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/BipedArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.824] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.BipedArmorLayer was not found mixins.essential.json:client.renderer.entity.Mixin_StoreArmorRenderedState
+[26May2025 20:13:36.824] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.824] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/BipedArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.824] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.BipedArmorLayer was not found mixins.essential.json:client.renderer.entity.Mixin_DisableArmorRendering
+[26May2025 20:13:36.825] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.825] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ElytraLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/ElytraLayer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.825] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ElytraLayer was not found mixins.essential.json:client.renderer.entity.Mixin_DisableElytraRendering
+[26May2025 20:13:36.825] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/HeadLayer (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.826] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.HeadLayer was not found mixins.essential.json:client.renderer.entity.Mixin_DisablePlayerSkullRendering
+[26May2025 20:13:36.826] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.826] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/EntityRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.827] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.EntityRenderer was not found mixins.essential.json:client.renderer.entity.Mixin_RenderNameplateIcon
+[26May2025 20:13:36.827] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.827] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/EntityRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/EntityRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.828] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.EntityRenderer was not found mixins.essential.json:client.renderer.entity.MixinRender
+[26May2025 20:13:36.829] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.829] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/LivingRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.830] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.LivingRenderer was not found mixins.essential.json:client.renderer.entity.MixinRendererLivingEntity
+[26May2025 20:13:36.832] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.832] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.832] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PlayerRenderer was not found mixins.essential.json:client.renderer.entity.MixinRenderPlayer
+[26May2025 20:13:36.832] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/SkinManager (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.832] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.SkinManager was not found mixins.essential.json:client.resources.Mixin_InstantSkinLoad
+[26May2025 20:13:36.835] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.835] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameSettings (java.lang.RuntimeException: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.835] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameSettings was not found mixins.essential.json:cosmetics.capes.Mixin_RedirectVanillaCapeSetting
+[26May2025 20:13:36.887] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/FirstPersonRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.888] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/FirstPersonRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/FirstPersonRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.888] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.FirstPersonRenderer was not found mixins.essential.json:cosmetics.skinmask.Mixin_ApplyToHandRenderer
+[26May2025 20:13:36.889] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.890] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.890] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PlayerRenderer was not found mixins.essential.json:cosmetics.skinmask.Mixin_ApplyToPlayerRenderer
+[26May2025 20:13:36.913] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.913] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.913] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:events.Mixin_GuiClickEvent
+[26May2025 20:13:36.914] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.914] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.914] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:events.Mixin_GuiClickEvent_Priority
+[26May2025 20:13:36.915] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.915] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.916] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:events.Mixin_GuiMouseReleaseEvent
+[26May2025 20:13:36.919] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.919] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.920] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found mixins.essential.json:events.Mixin_GuiDrawScreenEvent_Priority
+[26May2025 20:13:36.921] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.921] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.922] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:events.Mixin_MouseScrollEvent
+[26May2025 20:13:36.931] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.931] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.931] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found mixins.essential.json:events.Mixin_RenderTickEvent
+[26May2025 20:13:36.933] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.933] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.933] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found mixins.essential.json:feature.chat.Mixin_ChatPeekScrolling
+[26May2025 20:13:36.981] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/WorldRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.981] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/WorldRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/WorldRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.981] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.WorldRenderer was not found mixins.essential.json:feature.cosmetics.Mixin_UpdateOffscreenPlayers
+[26May2025 20:13:36.982] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/ConnectingScreen$1 (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:36.982] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/gui/screen/ConnectingScreen$1 was not found mixins.essential.json:feature.ice.client.Mixin_IceAddressResolving_Connect
+[26May2025 20:13:36.983] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER
+[26May2025 20:13:36.983] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/network/ServerPinger (java.lang.RuntimeException: Attempted to load class net/minecraft/client/network/ServerPinger for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:36.983] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.network.ServerPinger was not found mixins.essential.json:feature.ice.client.Mixin_IceAddressResolving_Ping
+[26May2025 20:13:37.052] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/world/ClientWorld for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.052] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/world/ClientWorld (java.lang.RuntimeException: Attempted to load class net/minecraft/client/world/ClientWorld for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.052] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.world.ClientWorld was not found mixins.essential.json:feature.particles.Mixin_AddParticleSystemToClientWorld
+[26May2025 20:13:37.053] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.054] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleManager (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.054] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleManager was not found mixins.essential.json:feature.particles.Mixin_RenderParticleSystemOfClientWorld
+[26May2025 20:13:37.054] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/AddServerScreen (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:37.054] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.AddServerScreen was not found mixins.essential.json:feature.per_server_privacy.Mixin_AddPerServerPrivacyButton
+[26May2025 20:13:37.055] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ServerList (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:37.055] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.ServerList was not found mixins.essential.json:feature.per_server_settings.Mixin_PreserveCustomServerData
+[26May2025 20:13:37.078] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/LegacyResourcePackWrapper (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:37.078] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.LegacyResourcePackWrapper was not found mixins.essential.json:resources.LegacyAdapterPackMixin_Ext
+[26May2025 20:13:37.078] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/LegacyResourcePackWrapperV4 (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:37.078] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.LegacyResourcePackWrapperV4 was not found mixins.essential.json:resources.LegacyV4AdapterPackMixin_Ext
+[26May2025 20:13:37.080] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.080] [main/WARN] [mixin/]: Error loading class: net/minecraft/server/integrated/IntegratedServer (java.lang.RuntimeException: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.080] [main/WARN] [mixin/]: @Mixin target net.minecraft.server.integrated.IntegratedServer was not found mixins.essential.json:server.integrated.Mixin_FixDefaultOpPermissionLevel
+[26May2025 20:13:37.081] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.081] [main/WARN] [mixin/]: Error loading class: net/minecraft/server/integrated/IntegratedServer (java.lang.RuntimeException: Attempted to load class net/minecraft/server/integrated/IntegratedServer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.081] [main/WARN] [mixin/]: @Mixin target net.minecraft.server.integrated.IntegratedServer was not found mixins.essential.json:server.integrated.MixinIntegratedServer
+[26May2025 20:13:37.082] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/util/ScreenShotHelper for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.082] [main/WARN] [mixin/]: Error loading class: net/minecraft/util/ScreenShotHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/util/ScreenShotHelper for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.082] [main/WARN] [mixin/]: @Mixin target net.minecraft.util.ScreenShotHelper was not found mixins.essential.json:util.Mixin_CaptureScreenshots
+[26May2025 20:13:37.424] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/matrix/MatrixStack$Entry (java.lang.ClassNotFoundException: null)
+[26May2025 20:13:37.454] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/texture/AtlasTexture for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.454] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/texture/AtlasTexture (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/texture/AtlasTexture for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.455] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.texture.AtlasTexture was not found fusion.mixins.json:modernfix.TextureAtlasMixinModernFix
+[26May2025 20:13:37.503] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/ItemRenderer for invalid dist DEDICATED_SERVER
+[26May2025 20:13:37.503] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/ItemRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/ItemRenderer for invalid dist DEDICATED_SERVER)
+[26May2025 20:13:37.504] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.ItemRenderer was not found fusion.mixins.json:embeddium.ItemRendererMixinEmbeddium
+[26May2025 20:13:37.551] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via gg.essential.lib.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[26May2025 20:13:37.754] [main/INFO] [net.minecraft.util.registry.Bootstrap/]: ModernFix reached bootstrap stage (8.446 s after launch)
+[26May2025 20:13:38.302] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.AbstractBlockStateMixin
+[26May2025 20:13:38.302] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.AbstractBlockStateMixin
+[26May2025 20:13:38.698] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[26May2025 20:13:40.423] [main/INFO] [net.minecraft.util.registry.Bootstrap/]: Vanilla bootstrap took 2665 milliseconds
+[26May2025 20:13:40.563] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[26May2025 20:13:40.564] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[26May2025 20:13:40.564] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[26May2025 20:13:40.564] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[26May2025 20:13:40.624] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+[26May2025 20:13:40.624] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to load class net.coderbot.iris.Iris
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:47) ~[forge:36.2]
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[forge:36.2]
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:288) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:267) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1764) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:269) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:169) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:171) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:30) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
+[26May2025 20:13:40.627] [main/FATAL] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Failed to build mod
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[forge:36.2]
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:288) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:267) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1764) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:269) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:169) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:171) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:30) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
+Caused by: net.minecraftforge.fml.ModLoadingException: Oculus has class loading errors
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:53) ~[forge:36.2]
+	... 39 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:47) ~[forge:36.2]
+	... 39 more
+[26May2025 20:13:40.735] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Failed to initialize mod containers
+net.minecraftforge.fml.ModLoadingException: Oculus has class loading errors
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:53) ~[forge:36.2]
+	at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[forge:36.2]
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:288) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:267) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1764) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:269) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:169) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:171) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:30) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:47) ~[forge:36.2]
+	... 39 more
+[26May2025 20:13:40.750] [main/INFO] [STDOUT/]: [net.minecraft.crash.CrashReport:func_85057_a:196]: Negative index in crash report handler (16/18)
+[26May2025 20:13:40.753] [main/FATAL] [net.minecraftforge.fml.server.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-05-26_20.13.40-fml.txt
+[26May2025 20:13:40.755] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Oculus has class loading errors
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:176) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:30) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
