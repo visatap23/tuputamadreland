@@ -1,8 +1,8 @@
 JVM info: Microsoft - 21.0.6 - 21.0.6+7-LTS
 java.net.preferIPv4Stack=true
-Current Time: 26/05/2025 19:51:31
-Host: files.minecraftforge.net [104.21.58.163, 172.67.161.211]
-Host: maven.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Current Time: 26/05/2025 21:01:47
+Host: files.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Host: maven.minecraftforge.net [104.21.58.163, 172.67.161.211]
 Host: libraries.minecraft.net [13.107.246.64]
 Host: launchermeta.mojang.com [13.107.246.64]
 Host: piston-meta.mojang.com [13.107.246.64]
@@ -214,7 +214,7 @@ Considering library org.ow2.asm:asm:9.3
 Considering library trove:trove:1.0.2
   Downloading library from https://maven.creeperhost.net/trove/trove/1.0.2/trove-1.0.2.jar
     Download completed: Checksum validated.
-Created Temporary Directory: /tmp/forge_installer1706755439957883241
+Created Temporary Directory: /tmp/forge_installer11659897945289617981
   Extracting: /data/server.lzma
 Building Processors
 ===============================================================================
@@ -26017,14 +26017,14 @@ Remapping jar... 100%
     /workspaces/tuputamadreland/servidor_minecraft/./libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
     /workspaces/tuputamadreland/servidor_minecraft/./libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
     /workspaces/tuputamadreland/servidor_minecraft/./libraries/trove/trove/1.0.2/trove-1.0.2.jar
-  Args: --clean, /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar, --output, /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-server.jar, --apply, /tmp/forge_installer1706755439957883241/data/server.lzma
+  Args: --clean, /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar, --output, /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-server.jar, --apply, /tmp/forge_installer11659897945289617981/data/server.lzma
 Applying: 
   Clean:     /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar
   Output:    /workspaces/tuputamadreland/servidor_minecraft/./libraries/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-server.jar
   KeepData:  false
   Unpatched: false
-  Patches:   /tmp/forge_installer1706755439957883241/data/server.lzma
-Loading patches file: /tmp/forge_installer1706755439957883241/data/server.lzma
+  Patches:   /tmp/forge_installer11659897945289617981/data/server.lzma
+Loading patches file: /tmp/forge_installer11659897945289617981/data/server.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
