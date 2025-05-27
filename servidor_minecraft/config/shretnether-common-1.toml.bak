@@ -1,0 +1,16 @@
+"Generate Deathmist" = true
+"Generate Magma Golems under lava oceans" = true
+"Generate Ash" = true
+#Range: 0 ~ 256
+"Spawnrate of Magmashrooms" = 3
+#Range: 0 ~ 256
+"Spawnrate of Violet Funguses" = 2
+#Range: 0 ~ 256
+"Spawnrate of Scarlet Funguses" = 3
+#Range: 0 ~ 256
+"Spawnrate of Endus Funguses" = 2
+#Range: 0 ~ 256
+"Spawnrate of Sparkshrooms" = 7
+"Make Deathmist damage living entities" = true
+"Spawn Soulbeasts" = true
+

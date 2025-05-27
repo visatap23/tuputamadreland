@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "55b4b961-b7b2-3e46-b4af-dd76b04a38c5",
+    "name": "visatap23_YT",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "956eabdd-8496-3d2a-9604-929f0d5de4df",
+    "name": "visatap23",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
