@@ -1,134 +1,134 @@
-[14:35:28] [INFO ] Hello, World! (You will see this line every time server resources reload)
-[14:35:28] [INFO ] Loaded script server_scripts:script.js in 0.005 s
-[14:35:28] [INFO ] Loaded 1/1 KubeJS server scripts in 0.013 s
-[14:35:28] [INFO ] Scripts loaded
-[14:35:28] [INFO ] Scanning recipes...
-[14:35:33] [INFO ] [blocks] Found 618 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [blocks] Found 618 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [items] Found 812 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [items] Found 812 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [fluids] Found 111 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [fluids] Found 111 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [entity_types] Found 65 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [entity_types] Found 65 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
-[14:35:33] [INFO ] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_hop_graphite[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_hop_graphite'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_hop_graphite[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_hop_graphite'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_steel[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_steel'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_steel[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_steel'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_osmium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_osmium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_osmium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_osmium'
-[14:35:33] [WARN ] Failed to parse recipe 'enderiteplus:enderite_hel_craft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
-[14:35:33] [WARN ] Failed to parse recipe enderiteplus:enderite_hel_craft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_ironwood[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/ironwood'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_ironwood[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/ironwood'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_aluminium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aluminium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_aluminium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aluminium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_nickel[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_nickel'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_nickel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_nickel'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_enderium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_enderium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_enderium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_enderium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_tin[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/tin'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_tin[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/tin'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_signalum[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/signalum'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_signalum[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/signalum'
-[14:35:33] [WARN ] Failed to parse recipe 'shretnether:free_souls_twisted[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'comfortable_nether:docile_soul'
-[14:35:33] [WARN ] Failed to parse recipe shretnether:free_souls_twisted[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'comfortable_nether:docile_soul'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_knightmetal[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/knightmetal'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_knightmetal[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/knightmetal'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_steel[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_steel'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_steel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_steel'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_lead[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lead'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_lead[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lead'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_lumium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lumium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_lumium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lumium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_enderium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/enderium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_enderium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/enderium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_signalum[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_signalum'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_signalum[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_signalum'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_grass1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_grass1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_refined_obsidian[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_obsidian'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_refined_obsidian[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_obsidian'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_hop_graphite[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/hop_graphite'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_hop_graphite[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/hop_graphite'
-[14:35:33] [WARN ] Failed to parse recipe 'vehicle:boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe vehicle:boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_constantan[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/constantan'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_constantan[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/constantan'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_refined_obsidian[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_obsidian'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_refined_obsidian[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_obsidian'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_aquamarine[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aquamarine'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_aquamarine[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aquamarine'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_lead[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lead'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_lead[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lead'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_bronze[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/bronze'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_bronze[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/bronze'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_tin[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_tin'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_tin[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_tin'
-[14:35:33] [WARN ] Failed to parse recipe 'vehicle:steep_boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe vehicle:steep_boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_constantan[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_constantan'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_constantan[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_constantan'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_grass1[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_grass1[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_uranium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/uranium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_uranium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/uranium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_starmetal[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_starmetal'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_starmetal[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_starmetal'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_steeleaf[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/steeleaf'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_steeleaf[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/steeleaf'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_nickel[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/nickel'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_nickel[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/nickel'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_invar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/invar'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_invar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/invar'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_osmium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/osmium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_osmium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/osmium'
-[14:35:33] [WARN ] Failed to parse recipe 'ganjacraft:hemp_bricks_slab[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ganjacraft:hemp_bricks_slab'
-[14:35:33] [WARN ] Failed to parse recipe ganjacraft:hemp_bricks_slab[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'ganjacraft:hemp_bricks_slab'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_aluminium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/aluminum'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_aluminium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/aluminum'
-[14:35:33] [WARN ] Failed to parse recipe 'vehicle:boost_pad[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe vehicle:boost_pad[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_fiery[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/fiery'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_fiery[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/fiery'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_lumium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lumium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_lumium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lumium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_refined_glowstone[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_glowstone'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_refined_glowstone[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_glowstone'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_uranium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_uranium'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_uranium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_uranium'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:seed_crop_electrum[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/electrum'
-[14:35:33] [WARN ] Failed to parse recipe croparia:seed_crop_electrum[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/electrum'
-[14:35:33] [WARN ] Failed to parse recipe 'croparia:fruit_electrum[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_electrum'
-[14:35:33] [WARN ] Failed to parse recipe croparia:fruit_electrum[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_electrum'
-[14:35:34] [WARN ] Failed to parse recipe 'illegalitems:end_portal[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:end_portal'
-[14:35:34] [WARN ] Failed to parse recipe illegalitems:end_portal[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:end_portal'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:seed_crop_silver1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_silver1'
-[14:35:34] [WARN ] Failed to parse recipe croparia:seed_crop_silver1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_silver1'
-[14:35:34] [WARN ] Failed to parse recipe 'enderiteplus:enderite_hoe_craft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
-[14:35:34] [WARN ] Failed to parse recipe enderiteplus:enderite_hoe_craft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:seed_crop_aquamarine[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/aquamarine'
-[14:35:34] [WARN ] Failed to parse recipe croparia:seed_crop_aquamarine[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/aquamarine'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:fruit_invar[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_invar'
-[14:35:34] [WARN ] Failed to parse recipe croparia:fruit_invar[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_invar'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:seed_crop_refined_glowstone[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_glowstone'
-[14:35:34] [WARN ] Failed to parse recipe croparia:seed_crop_refined_glowstone[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_glowstone'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:fruit_silver1[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_silver1'
-[14:35:34] [WARN ] Failed to parse recipe croparia:fruit_silver1[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_silver1'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:fruit_bronze[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_bronze'
-[14:35:34] [WARN ] Failed to parse recipe croparia:fruit_bronze[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_bronze'
-[14:35:34] [WARN ] Failed to parse recipe 'croparia:seed_crop_starmetal[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'astralsorcery:starmetal'
-[14:35:34] [WARN ] Failed to parse recipe croparia:seed_crop_starmetal[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'astralsorcery:starmetal'
-[14:35:34] [INFO ] Found 8299 recipes and 0 failed recipes in 544.1 ms
-[14:35:34] [INFO ] Posted recipe events in 1.535 ms
-[14:35:34] [INFO ] Modified & removed recipes in 216.1 ms
-[14:35:34] [INFO ] Added recipes in 831.1 μs
-[14:35:34] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[14:35:36] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
-[14:35:36] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:10] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[14:55:10] [INFO ] Loaded script server_scripts:script.js in 0.004 s
+[14:55:10] [INFO ] Loaded 1/1 KubeJS server scripts in 0.012 s
+[14:55:10] [INFO ] Scripts loaded
+[14:55:10] [INFO ] Scanning recipes...
+[14:55:14] [INFO ] [blocks] Found 618 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [blocks] Found 618 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [items] Found 812 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [items] Found 812 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [fluids] Found 111 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [fluids] Found 111 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [entity_types] Found 65 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [entity_types] Found 65 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
+[14:55:14] [INFO ] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_hop_graphite[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_hop_graphite'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_hop_graphite[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_hop_graphite'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_steel[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_steel'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_steel[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_steel'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_osmium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_osmium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_osmium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_osmium'
+[14:55:14] [WARN ] Failed to parse recipe 'enderiteplus:enderite_hel_craft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
+[14:55:14] [WARN ] Failed to parse recipe enderiteplus:enderite_hel_craft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_ironwood[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/ironwood'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_ironwood[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/ironwood'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_aluminium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aluminium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_aluminium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aluminium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_nickel[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_nickel'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_nickel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_nickel'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_enderium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_enderium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_enderium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_enderium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_tin[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/tin'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_tin[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/tin'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_signalum[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/signalum'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_signalum[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/signalum'
+[14:55:14] [WARN ] Failed to parse recipe 'shretnether:free_souls_twisted[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'comfortable_nether:docile_soul'
+[14:55:14] [WARN ] Failed to parse recipe shretnether:free_souls_twisted[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'comfortable_nether:docile_soul'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_knightmetal[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/knightmetal'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_knightmetal[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/knightmetal'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_steel[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_steel'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_steel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_steel'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_lead[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lead'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_lead[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lead'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_lumium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lumium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_lumium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lumium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_enderium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/enderium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_enderium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/enderium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_signalum[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_signalum'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_signalum[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_signalum'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_grass1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_grass1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_refined_obsidian[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_obsidian'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_refined_obsidian[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_obsidian'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_hop_graphite[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/hop_graphite'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_hop_graphite[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/hop_graphite'
+[14:55:14] [WARN ] Failed to parse recipe 'vehicle:boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe vehicle:boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_constantan[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/constantan'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_constantan[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/constantan'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_refined_obsidian[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_obsidian'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_refined_obsidian[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_obsidian'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_aquamarine[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aquamarine'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_aquamarine[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_aquamarine'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_lead[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lead'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_lead[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_lead'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_bronze[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/bronze'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_bronze[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/bronze'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_tin[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_tin'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_tin[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_tin'
+[14:55:14] [WARN ] Failed to parse recipe 'vehicle:steep_boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe vehicle:steep_boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_constantan[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_constantan'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_constantan[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_constantan'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_grass1[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_grass1[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_uranium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/uranium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_uranium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/uranium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_starmetal[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_starmetal'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_starmetal[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_starmetal'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_steeleaf[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/steeleaf'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_steeleaf[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/steeleaf'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_nickel[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/nickel'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_nickel[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/nickel'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_invar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/invar'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_invar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/invar'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_osmium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/osmium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_osmium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/osmium'
+[14:55:14] [WARN ] Failed to parse recipe 'ganjacraft:hemp_bricks_slab[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ganjacraft:hemp_bricks_slab'
+[14:55:14] [WARN ] Failed to parse recipe ganjacraft:hemp_bricks_slab[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'ganjacraft:hemp_bricks_slab'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_aluminium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/aluminum'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_aluminium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/aluminum'
+[14:55:14] [WARN ] Failed to parse recipe 'vehicle:boost_pad[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe vehicle:boost_pad[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_fiery[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/fiery'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_fiery[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'twilightforest:ingots/fiery'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_lumium[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lumium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_lumium[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/lumium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_refined_glowstone[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_glowstone'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_refined_glowstone[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_refined_glowstone'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_uranium[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_uranium'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_uranium[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_uranium'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_electrum[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/electrum'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_electrum[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/electrum'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_electrum[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_electrum'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_electrum[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_electrum'
+[14:55:14] [WARN ] Failed to parse recipe 'illegalitems:end_portal[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:end_portal'
+[14:55:14] [WARN ] Failed to parse recipe illegalitems:end_portal[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:end_portal'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_silver1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_silver1'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_silver1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_silver1'
+[14:55:14] [WARN ] Failed to parse recipe 'enderiteplus:enderite_hoe_craft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
+[14:55:14] [WARN ] Failed to parse recipe enderiteplus:enderite_hoe_craft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'enderite:enderite_gem'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_aquamarine[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/aquamarine'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_aquamarine[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/aquamarine'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_invar[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_invar'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_invar[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_invar'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_refined_glowstone[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_glowstone'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_refined_glowstone[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/refined_glowstone'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_silver1[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_silver1'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_silver1[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_silver1'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:fruit_bronze[croparia:shapeless_tag]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_bronze'
+[14:55:14] [WARN ] Failed to parse recipe croparia:fruit_bronze[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_bronze'
+[14:55:14] [WARN ] Failed to parse recipe 'croparia:seed_crop_starmetal[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'astralsorcery:starmetal'
+[14:55:14] [WARN ] Failed to parse recipe croparia:seed_crop_starmetal[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'astralsorcery:starmetal'
+[14:55:14] [INFO ] Found 8299 recipes and 0 failed recipes in 408.2 ms
+[14:55:14] [INFO ] Posted recipe events in 1.329 ms
+[14:55:15] [INFO ] Modified & removed recipes in 152.5 ms
+[14:55:15] [INFO ] Added recipes in 793.1 μs
+[14:55:15] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[14:55:16] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[14:55:16] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
