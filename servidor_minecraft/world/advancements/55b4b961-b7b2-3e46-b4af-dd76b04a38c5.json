@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "tconstruct:world/ender_island": {
+    "criteria": {
+      "found_island": "2025-05-27 15:03:55 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/dead_boat": {
     "criteria": {
       "in_water": "2025-05-26 22:05:32 +0000"
