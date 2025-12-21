@@ -1,548 +1,749 @@
-[19Dec2025 17:55:32.265] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.215, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
-[19Dec2025 17:55:32.268] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04
-[19Dec2025 17:55:32.269] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[19Dec2025 17:55:32.423] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[19Dec2025 17:55:32.477] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/tuputamadreland/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[19Dec2025 17:55:32.835] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.215:server]
-[19Dec2025 17:55:32.855] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.215-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.215/neoforge-21.1.215-universal.jar]], reader: mod manifest]
-[19Dec2025 17:55:32.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.877] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Aquaculture-1.21.1-2.7.17.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.881] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.55.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "BetterTridents-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.890] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.2.11 (1).jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.905] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Chimes-v2.0.3-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.909] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-neoforge-9.0.4+1.21.1 (1).jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.920] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.8.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.923] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "do_a_barrel_roll-neoforge-3.7.3+1.21.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.929] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dungeons-and-taverns-v4.4.4.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.934] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.937] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyMagic-v21.1.4-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.940] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.944] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.947] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.13.6.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.950] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.11c-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.954] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.1-1.11.2.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.956] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gravestone-neoforge-1.21.1-1.0.35.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.966] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.25.1.332.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.971] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21-2.28.2-neoforge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.975] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.0.3-neoforge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.979] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-carpet-1.21.1-1.0.8+v251027.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.983] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Paraglider-neoforge-21.1.3.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.986] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.989] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "realmrpg_skeletons-1.1.0-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.991] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sawmill-1.21-1.7.2-neoforge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.995] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.25.18.1444.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:32.997] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.3.94.1295.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.000] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.18b-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.009] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.21-3.5.11-neoforge.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.011] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tidal-towns-1.3.4.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.014] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.24.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.016] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsApi-1.21.1-NeoForge-5.1.6.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.018] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.021] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.023] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.025] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.028] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.031] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.033] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.036] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsBridges-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.044] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "YungsExtras-1.21.1-NeoForge-5.1.1.jar" [locator: {mods folder locator at /workspaces/tuputamadreland/servidor_minecraft/mods}, reader: mod manifest]
-[19Dec2025 17:55:33.548] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 54 dependencies adding them to mods collection
-[19Dec2025 17:55:33.548] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transfer-api-v1-5.4.2+a25cb45619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.548] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.55.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Ponder-NeoForge-1.21.1-1.0.64.jar" [parent: create-1.21.1-6.0.8.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-api-v1-11.1.1+57cdfa8219.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.215.jar" [parent: neoforge-21.1.215-universal.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.549] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-fluids-v1-3.1.6+857185bc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-handler-api-v1-1.3.88+8dbc56dd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-loader-v0-1.3.1+4ea8954419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-v1-5.0.5+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+4198af7119.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.550] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v1-2.1.4+7f945d5b19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.11+e9036fd419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-command-api-v2-2.2.28+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v2-2.11.0+87e5848019.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-attachment-api-v1-1.4.3+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.551] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.1.2-beta.4.jar" [parent: do_a_barrel_roll-neoforge-3.7.3+1.21.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.552] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-api-v1-2.0.25+4228281319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.552] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-particles-v1-4.0.2+824f924c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.552] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.552] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-content-registries-v0-8.0.18+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.553] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.553] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.215-universal.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.553] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-lookup-api-v1-1.6.70+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.554] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-blockrenderlayer-v1-1.1.52+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.555] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iteminteractions-neoforge-21.1.4.jar" [parent: EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.556] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-api-v1-1.0.22+a6e994cd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.556] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: comforts-neoforge-9.0.4+1.21.1 (1).jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.556] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.556] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.5.jar" [parent: create-1.21.1-6.0.8.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-group-api-v1-4.1.7+e324903319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-gametest-api-v1-2.0.5+29f188ce19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-biome-api-v1-13.0.31+1e62d33c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-entity-events-v1-1.7.0+1af6e62419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-registry-sync-v0-5.2.0+867470b919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-recipe-api-v1-5.0.14+59440bcc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.1.2-beta.4.jar" [parent: mixinsquared-neoforge-0.1.2-beta.4.jar, locator: jarinjar]
-[19Dec2025 17:55:33.558] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-object-builder-api-v1-15.2.1+cc242efd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.559] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-forge-0.1.1.jar" [parent: supplementaries-1.21-3.5.11-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v2-3.0.15+a3ee712d19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v3-1.0.3+333dfad919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.561] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-networking-api-v1-4.3.0+30a980d919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.8.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-sound-api-v1-1.0.23+10b84f8419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-message-api-v1-6.0.13+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-lifecycle-events-v1-2.5.0+a2ee258a19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.564] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-generation-api-v1-20.2.28+2d91a6db19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-events-interaction-v0-0.7.13+7b71cc1619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.565] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-client-tags-api-v1-1.1.15+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[19Dec2025 17:55:33.569] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
-     Mod List:
-		Name Version (Mod Id)
-
-		Aquaculture 2 2.7.17 (aquaculture)
-		Balm 21.0.55 (balm)
-		Better Tridents 21.1.0 (bettertridents)
-		Carpet: NeoForged 1.4.147+v1.0.8-251027 (carpet)
-		Carry On 2.2.2 (carryon)
-		Chimes 2.0.3 (chimes)
-		Comforts 9.0.4+1.21.1 (comforts)
-		Create 6.0.8 (create)
-		Do a Barrel Roll 3.7.3 (do_a_barrel_roll)
-		Dungeons and Taverns 1-v4.4.4 (mr_dungeons_andtaverns)
-		Easy Anvils 21.1.0 (easyanvils)
-		Easy Magic 21.1.4 (easymagic)
-		Easy Shulker Boxes 21.1.3 (easyshulkerboxes)
-		Flywheel 1.0.5 (flywheel)
-		Forgified Fabric API 0.115.6+2.1.4+1.21.1 (fabric_api)
-		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
-		Forgified Fabric API Lookup API (v1) 1.6.70+c290471319 (fabric_api_lookup_api_v1)
-		Forgified Fabric Biome API (v1) 13.0.31+1e62d33c19 (fabric_biome_api_v1)
-		Forgified Fabric Block API (v1) 1.0.22+a6e994cd19 (fabric_block_api_v1)
-		Forgified Fabric BlockRenderLayer Registration (v1) 1.1.52+c290471319 (fabric_blockrenderlayer_v1)
-		Forgified Fabric BlockView API (v2) 1.0.11+e9036fd419 (fabric_block_view_api_v2)
-		Forgified Fabric Client Tags 1.1.15+e053909619 (fabric_client_tags_api_v1)
-		Forgified Fabric Command API (v2) 2.2.28+36d727be19 (fabric_command_api_v2)
-		Forgified Fabric Content Registries (v0) 8.0.18+c290471319 (fabric_content_registries_v0)
-		Forgified Fabric Convention Tags 2.1.4+7f945d5b19 (fabric_convention_tags_v1)
-		Forgified Fabric Convention Tags (v2) 2.11.0+87e5848019 (fabric_convention_tags_v2)
-		Forgified Fabric Data Attachment API (v1) 1.4.3+c290471319 (fabric_data_attachment_api_v1)
-		Forgified Fabric Data Generation API (v1) 20.2.28+2d91a6db19 (fabric_data_generation_api_v1)
-		Forgified Fabric Entity Events (v1) 1.7.0+1af6e62419 (fabric_entity_events_v1)
-		Forgified Fabric Events Interaction (v0) 0.7.13+7b71cc1619 (fabric_events_interaction_v0)
-		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
-		Forgified Fabric Game Test API (v1) 2.0.5+29f188ce19 (fabric_gametest_api_v1)
-		Forgified Fabric Item API (v1) 11.1.1+57cdfa8219 (fabric_item_api_v1)
-		Forgified Fabric Item Group API (v1) 4.1.7+e324903319 (fabric_item_group_api_v1)
-		Forgified Fabric Key Binding API (v1) 1.0.47+62cc7ce119 (fabric_key_binding_api_v1)
-		Forgified Fabric Lifecycle Events (v1) 2.5.0+a2ee258a19 (fabric_lifecycle_events_v1)
-		Forgified Fabric Loot API (v2) 3.0.15+a3ee712d19 (fabric_loot_api_v2)
-		Forgified Fabric Loot API (v3) 1.0.3+333dfad919 (fabric_loot_api_v3)
-		Forgified Fabric Message API (v1) 6.0.13+e053909619 (fabric_message_api_v1)
-		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
-		Forgified Fabric Networking API (v1) 4.3.0+30a980d919 (fabric_networking_api_v1)
-		Forgified Fabric Object Builder API (v1) 15.2.1+cc242efd19 (fabric_object_builder_api_v1)
-		Forgified Fabric Particles (v1) 4.0.2+824f924c19 (fabric_particles_v1)
-		Forgified Fabric Recipe API (v1) 5.0.14+59440bcc19 (fabric_recipe_api_v1)
-		Forgified Fabric Registry Sync (v0) 5.2.0+867470b919 (fabric_registry_sync_v0)
-		Forgified Fabric Renderer - Indigo 1.7.0+4198af7119 (fabric_renderer_indigo)
-		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
-		Forgified Fabric Rendering (v1) 5.0.5+c290471319 (fabric_rendering_v1)
-		Forgified Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19 (fabric_rendering_data_attachment_v1)
-		Forgified Fabric Rendering Fluids (v1) 3.1.6+857185bc19 (fabric_rendering_fluids_v1)
-		Forgified Fabric Resource Conditions API (v1) 4.3.0+5bdd099819 (fabric_resource_conditions_api_v1)
-		Forgified Fabric Resource Loader (v0) 1.3.1+4ea8954419 (fabric_resource_loader_v0)
-		Forgified Fabric Screen API (v1) 2.0.25+4228281319 (fabric_screen_api_v1)
-		Forgified Fabric Screen Handler API (v1) 1.3.88+8dbc56dd19 (fabric_screen_handler_api_v1)
-		Forgified Fabric Sound API (v1) 1.0.23+10b84f8419 (fabric_sound_api_v1)
-		Forgified Fabric Transfer API (v1) 5.4.2+a25cb45619 (fabric_transfer_api_v1)
-		Forgified Fabric Transitive Access Wideners (v1) 6.2.0+6c854b6f19 (fabric_transitive_access_wideners_v1)
-		Framework 0.13.6 (framework)
-		Fusion 1.2.11+c (fusion)
-		Goblin Traders 1.11.2 (goblintraders)
-		Gravestone Mod 1.21.1-1.0.35 (gravestone)
-		Item Interactions 21.1.4 (iteminteractions)
-		Just Enough Items 19.25.1.332 (jei)
-		KumaAPI 21.0.7 (kuma_api)
-		Minecraft 1.21.1 (minecraft)
-		Moonlight Lib 1.21-2.28.2 (moonlight)
-		Nature's Compass 1.21.1-3.0.2-neoforge (naturescompass)
-		NeoForge 21.1.215 (neoforge)
-		Paraglider 21.1.3 (paraglider)
-		Ponder 1.0.64 (ponder)
-		Puzzles Lib 21.1.39 (puzzleslib)
-		Realm RPG: Fallen Adventurers 1.1.0 (realmrpg_skeletons)
-		SecurityCraft 1.10.1 (securitycraft)
-		Sophisticated Backpacks 3.25.18 (sophisticatedbackpacks)
-		Sophisticated Core 1.3.94 (sophisticatedcore)
-		SpectreLib 0.17.2+1.21 (spectrelib)
-		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
-		SuperMartijn642's Core Lib 1.1.18+b (supermartijn642corelib)
-		Supplementaries 1.21-3.5.11 (supplementaries)
-		Tidal Towns 1.3.4 (mr_tidal_towns)
-		Universal Sawmill 1.21-1.7.1 (sawmill)
-		Waystones 21.1.24 (waystones)
-		YUNG's API 1.21.1-NeoForge-5.1.6 (yungsapi)
-		YUNG's Better Caves 1.21.1-NeoForge-3.1.4 (bettercaves)
-		YUNG's Better Desert Temples 1.21.1-NeoForge-4.1.5 (betterdeserttemples)
-		YUNG's Better Dungeons 1.21.1-NeoForge-5.1.4 (betterdungeons)
-		YUNG's Better Jungle Temples 1.21.1-NeoForge-3.1.2 (betterjungletemples)
-		YUNG's Better Mineshafts 1.21.1-NeoForge-5.1.1 (bettermineshafts)
-		YUNG's Better Ocean Monuments 1.21.1-NeoForge-4.1.2 (betteroceanmonuments)
-		YUNG's Better Strongholds 1.21.1-NeoForge-5.1.3 (betterstrongholds)
-		YUNG's Bridges 1.21.1-NeoForge-5.1.1 (yungsbridges)
-		YUNG's Extras 1.21.1-NeoForge-5.1.1 (yungsextras)
-[19Dec2025 17:55:35.071] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Dec2025 17:55:35.086] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[19Dec2025 17:55:35.370] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
-[19Dec2025 17:55:35.394] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[19Dec2025 17:55:35.477] [main/WARN] [mixin/]: Reference map 'betterdungeons.refmap.json' for betterdungeons.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.478] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.490] [main/WARN] [mixin/]: Reference map 'betteroceanmonuments.refmap.json' for betteroceanmonuments.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.493] [main/WARN] [mixin/]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.494] [main/WARN] [mixin/]: Reference map 'bettercaves.refmap.json' for bettercaves.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.495] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.506] [main/WARN] [mixin/]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.513] [main/WARN] [mixin/]: Reference map 'yungsapi.refmap.json' for yungsapi.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.518] [main/WARN] [mixin/]: Reference map 'betterdeserttemples.refmap.json' for betterdeserttemples.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.518] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.707] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.727] [main/WARN] [mixin/]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.731] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.735] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.751] [main/WARN] [mixin/]: Reference map 'securitycraft.refmap.json' for securitycraft.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.754] [main/WARN] [mixin/]: Reference map 'betterstrongholds.refmap.json' for betterstrongholds.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.774] [main/WARN] [mixin/]: Reference map 'bettermineshafts.refmap.json' for bettermineshafts.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:35.777] [main/WARN] [mixin/]: Reference map 'betterjungletemples.refmap.json' for betterjungletemples.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Dec2025 17:55:36.569] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[19Dec2025 17:55:37.016] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[19Dec2025 17:55:37.279] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19Dec2025 17:55:44.904] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
-[19Dec2025 17:55:44.910] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
-[19Dec2025 17:55:45.075] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.215, for MC 1.21.1
-[19Dec2025 17:55:45.183] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.config.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 31 properties.
-[19Dec2025 17:55:45.500] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in sawmill-common.toml, from neoforge config event
-[19Dec2025 17:55:45.500] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:45.505] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in supplementaries-common.toml, from neoforge config event
-[19Dec2025 17:55:45.506] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:45.554] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
-[19Dec2025 17:55:45.554] [modloading-worker-0/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:45.675] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for iteminteractions:main
-[19Dec2025 17:55:45.755] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 5f1b407a97467157e7a0da0c560c7d1d5f378929
-[19Dec2025 17:55:45.842] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
-[19Dec2025 17:55:45.956] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[19Dec2025 17:55:46.661] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyshulkerboxes:main
-[19Dec2025 17:55:49.367] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 10ms
-[19Dec2025 17:55:51.159] [modloading-sync-worker/INFO] [Puzzles Lib/]: Dispatching loading event for config easymagic-common.toml
-[19Dec2025 17:55:51.160] [modloading-sync-worker/INFO] [Puzzles Lib/]: Dispatching loading event for config easyanvils-common.toml
-[19Dec2025 17:55:51.172] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in sawmill-common.toml, from neoforge config event
-[19Dec2025 17:55:51.172] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:51.178] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in supplementaries-common.toml, from neoforge config event
-[19Dec2025 17:55:51.178] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:51.179] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
-[19Dec2025 17:55:51.180] [modloading-sync-worker/INFO] [Moonlight/]: Sending changed configs to client
-[19Dec2025 17:55:51.182] [modloading-sync-worker/INFO] [Puzzles Lib/]: Dispatching loading event for config bettertridents-common.toml
-[19Dec2025 17:55:51.224] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
-[19Dec2025 17:55:51.227] [modloading-sync-worker/INFO] [Supplementaries/]: Finished mod setup in: [1, 0, 1, 0, 2, 2] ms
-[19Dec2025 17:55:51.279] [modloading-sync-worker/INFO] [Moonlight/]: Initialized color sets in 39ms
-[19Dec2025 17:55:51.279] [modloading-sync-worker/ERROR] [Moonlight/]: Fabric API detected! This is not a Fabric mod, so please dont report related issues to MoonlightLib or its dependant. This can usually happen with connector or when having a mod that does NOT have a proper native Neoforge implementation as they SHOULD. This can easily lead to poor compatibility and issues. Proceed ar your own risk. 
- Mods that bundled Fabric API: [net.neoforged.fml.loading.moddiscovery.ModInfo@60acd609, net.neoforged.fml.loading.moddiscovery.ModInfo@65ec8b24]
-[19Dec2025 17:55:51.346] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 21.1.0 Target: null
-[19Dec2025 17:55:51.349] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
-[19Dec2025 17:55:51.356] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 21.1.4 Target: null
-[19Dec2025 17:55:51.356] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/api/mod_update/neoforge/goblintraders
-[19Dec2025 17:55:51.450] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1238) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:167) ~[loader-4.0.42.jar%2359!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%2359!/:4.0]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%2394!/:?]
+[21Dec2025 18:15:32.826] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21Dec2025 18:15:32.831] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[21Dec2025 18:15:33.644] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Dec2025 18:15:33.696] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/tuputamadreland/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Dec2025 18:15:34.062] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2025 18:15:34.063] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2025 18:15:34.065] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2025 18:15:34.066] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Dec2025 18:15:34.370] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[21Dec2025 18:15:34.371] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[21Dec2025 18:15:36.949] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Dec2025 18:15:37.088] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21Dec2025 18:15:37.136] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[21Dec2025 18:15:37.282] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[21Dec2025 18:15:37.286] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[21Dec2025 18:15:37.292] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 18:15:37.362] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 18:15:37.364] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Dec2025 18:15:37.387] [main/INFO] [Puzzles Lib/]: Loading 54 mods:
+	- ad_astra 1.15.20
+	- alexsmobs 1.22.9
+	- amendments 1.20-2.2.3
+	- balm 7.3.37
+		\-- kuma_api 20.1.12
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- botarium 2.3.4
+	- carryon 2.1.2.7
+		\-- mixinextras 0.2.0-beta.6
+	- chloride 1.7.4
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- comforts 6.4.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- create 6.0.8
+		|-- flywheel 1.0.5
+		\-- ponder 1.0.91
+	- dynamic_fps 3.9.5
+	- fallingtree 4.3.4
+	- forge 47.3.7
+	- fpsreducer 1.20.1-2.5.1
+	- gravestone 1.20.1-1.0.35
+	- iceandfire 2.1.13-1.20.1
+	- immersive_armors 1.7.1+1.20.1
+	- ironfurnaces 4.1.6
+	- mantle 1.11.79
+	- mcwfences 1.2.1
+	- minecraft 1.20.1
+	- moonlight 1.20-2.16.16
+	- mr_dungeons_andtaverns 3.0.3.f
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	- saturn 0.1.3
+	- sawmill 1.20-1.4.10
+	- securitycraft 1.10.1
+	- sophisticatedbackpacks 3.24.15.1445
+	- sophisticatedcore 1.2.112.1296
+	- spartanshields 3.1.1
+	- supplementaries 1.20-3.1.41
+		\-- mixinsquared 0.1.1
+	- tconstruct 3.10.2.92
+	- torchmaster 20.1.9
+	- waystones 14.1.17
+	- yungsapi 1.20-Forge-4.0.6
+	- yungsbridges 1.20-Forge-4.0.3
+	- yungsextras 1.20-Forge-4.0.3
+[21Dec2025 18:15:38.892] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[21Dec2025 18:15:38.915] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/StandingCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.StandingCanvasSignBlock)
+[21Dec2025 18:15:38.917] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/WallCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.WallCanvasSignBlock)
+[21Dec2025 18:15:39.326] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21Dec2025 18:15:45.893] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[21Dec2025 18:15:46.559] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[21Dec2025 18:15:46.564] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[21Dec2025 18:15:47.051] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[21Dec2025 18:15:47.058] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[21Dec2025 18:15:47.223] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+[21Dec2025 18:15:47.606] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[21Dec2025 18:15:47.686] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[21Dec2025 18:15:47.688] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[21Dec2025 18:15:48.320] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[21Dec2025 18:15:56.131] [main/INFO] [Moonlight/]: Initialized block sets in 20ms
+[21Dec2025 18:15:57.483] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[21Dec2025 18:15:57.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[21Dec2025 18:15:57.623] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[21Dec2025 18:15:57.831] [main/INFO] [Moonlight/]: Initialized color sets in 51ms
+[21Dec2025 18:15:57.903] [main/INFO] [Supplementaries/]: Finished mod setup in: [35, 2, 0, 1, 0, 0, 17, 0] ms
+[21Dec2025 18:15:57.928] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23192!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23192!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[19Dec2025 17:55:51.452] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/neoforge_updates.json
-[19Dec2025 17:55:51.863] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "promos" is null
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:173) ~[loader-4.0.42.jar%2359!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%2359!/:4.0]
-[19Dec2025 17:55:51.865] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [iteminteractions] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/iteminteractions.json
-[19Dec2025 17:55:51.974] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1238) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:167) ~[loader-4.0.42.jar%2359!/:4.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%2359!/:4.0]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.1.jar%2394!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%2394!/:?]
-	... 6 more
-[19Dec2025 17:55:51.975] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json?neoforge=only
-[19Dec2025 17:55:51.982] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19Dec2025 17:55:52.075] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23160!/assets/.mcassetsroot' uses unexpected schema
-[19Dec2025 17:55:52.076] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23160!/data/.mcassetsroot' uses unexpected schema
-[19Dec2025 17:55:52.113] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.3.4 Target: 1.3.4+mod
-[19Dec2025 17:55:52.113] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/neoforge/gravestone
-[19Dec2025 17:55:52.196] [main/INFO] [com.simibubi.create.Create/]: Created 255 recipes which will be injected into the game
-[19Dec2025 17:55:52.206] [main/INFO] [com.simibubi.create.Create/]: Created 21 tags which will be injected into the game
-[19Dec2025 17:55:52.242] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [gravestone] Found status: BETA Current: 1.21.1-1.0.35 Target: 1.21.1-1.0.35
-[19Dec2025 17:55:52.247] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[19Dec2025 17:55:52.288] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack bettertridents:boosted_impaling, loading it automatically
-[19Dec2025 17:55:52.362] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
-[19Dec2025 17:55:52.363] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json?neoforge=only
-[19Dec2025 17:55:52.499] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.4.4 Target: null
-[19Dec2025 17:55:52.500] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bettertridents] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettertridents.json
-[19Dec2025 17:55:52.508] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [bettertridents] Found status: UP_TO_DATE Current: 21.1.0 Target: null
-[19Dec2025 17:55:52.509] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[19Dec2025 17:55:52.517] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 21.1.39 Target: null
-[19Dec2025 17:55:52.517] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easyshulkerboxes] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyshulkerboxes.json
-[19Dec2025 17:55:52.526] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [easyshulkerboxes] Found status: UP_TO_DATE Current: 21.1.3 Target: null
-[19Dec2025 17:55:52.827] [main/INFO] [Puzzles Lib/]: Data generation for dynamic pack resources provided by 'bettertridents' took 528ms
-[19Dec2025 17:55:52.844] [main/INFO] [Moonlight/]: Resource cache state for SERVER_DATA: up to date
-[19Dec2025 17:55:52.848] [main/INFO] [Moonlight/]: Populated search tree for pack at /workspaces/tuputamadreland/servidor_minecraft/dynamic-data-pack-cache/supplementaries-generated_pack in 1.875 ms
-[19Dec2025 17:55:52.855] [main/INFO] [Moonlight/]: Populated search tree for pack at /workspaces/tuputamadreland/servidor_minecraft/dynamic-data-pack-cache/sawmill-sawmill_recipes in 7.395 ms
-[19Dec2025 17:55:52.856] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators [supplementaries:generated_pack, sawmill:sawmill_recipes]
-[19Dec2025 17:55:52.860] [main/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [supplementaries:generated_pack] (cache up-to-date)
-[19Dec2025 17:55:52.861] [main/INFO] [Moonlight/]: Skipping regeneration for Dynamic SERVER_DATA Resources Provider [sawmill:sawmill_recipes] (cache up-to-date)
-[19Dec2025 17:55:52.861] [main/INFO] [Moonlight/]: Finished runtime resources generation for 2 packs in a total of 5.092 ms 
-[19Dec2025 17:55:54.236] [Worker-Main-2/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:minecraft:chests/pillager_outpost}.pools[6].entries[0]: Unknown loot table called supplementaries:inject/pillager_quiver
-[19Dec2025 17:55:54.236] [Worker-Main-2/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:supplementaries:loot/galleon/safe}.pools[0].entries[3]: Unreachable entry!
-[19Dec2025 17:55:54.237] [Worker-Main-2/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:supplementaries:loot/galleon/safe}.pools[2].entries[1]: Unreachable entry!
-[19Dec2025 17:55:54.874] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:non_flammable_wood as it is missing following references: 
-	supplementaries:cannon_boat (from mod/supplementaries)
-[19Dec2025 17:55:55.391] [main/INFO] [Sawmill/]: Processing Sawmill Recipes into Recipe Manager
-[19Dec2025 17:55:55.391] [main/INFO] [Sawmill/]: Skipping Sawmill recipe generation as packs didn't change
-[19Dec2025 17:55:55.394] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 4601 recipes
-[19Dec2025 17:55:55.756] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [minecraft:give_quest_trader_trade, minecraft:wander_add_map]
-[19Dec2025 17:55:55.756] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3899 advancements
-[19Dec2025 17:55:55.811] [main/INFO] [Moonlight/]: Applied 31 data villager trades
-[19Dec2025 17:55:55.816] [main/INFO] [Supplementaries/]: Loaded 28 flute songs
-[19Dec2025 17:55:55.840] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: twilightforest:in_twilight_forest
-[19Dec2025 17:55:55.847] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: realmrpg_skeletons:crimson_skeletons_can_generate_on, realmrpg_skeletons:deep_underground_chamber_can_generate_on, realmrpg_skeletons:dripstone_skeletons_can_generate_on, realmrpg_skeletons:lava_skeletons_can_generate_on, realmrpg_skeletons:monument_skeletons_can_generate_on, realmrpg_skeletons:sand_skeletons_can_generate_on, realmrpg_skeletons:skeletons_cannot_generate_on, realmrpg_skeletons:snow_skeletons_can_generate_on, realmrpg_skeletons:snow_skeletons_can_replace, realmrpg_skeletons:surface_skeletons_can_generate_on, realmrpg_skeletons:underground_chamber_can_generate_on, realmrpg_skeletons:warped_skeletons_can_generate_on, realmrpg_skeletons:webbed_skeletons_can_replace
-[19Dec2025 17:55:55.855] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:enchantment] are present in data pack: minecraft:galleon_treasure
-[19Dec2025 17:55:55.861] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:grain
-[19Dec2025 17:55:57.841] [main/INFO] [Supplementaries/]: Registering custom dispenser behaviors
-[19Dec2025 17:55:57.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[19Dec2025 17:55:57.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[19Dec2025 17:55:57.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[19Dec2025 17:55:57.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Dec2025 17:55:58.040] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[19Dec2025 17:55:58.078] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[19Dec2025 17:55:58.110] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19Dec2025 17:55:58.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[19Dec2025 17:55:58.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19Dec2025 17:55:58.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[19Dec2025 17:55:58.127] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config easymagic-server.toml
-[19Dec2025 17:55:58.129] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config easyanvils-server.toml
-[19Dec2025 17:55:58.137] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config iteminteractions-server.toml
-[19Dec2025 17:55:58.144] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config bettertridents-server.toml
-[19Dec2025 17:55:58.212] [Server thread/INFO] [carpet/]: [CM] Loaded 2 settings from carpet.conf
-[19Dec2025 17:55:58.246] [Server thread/INFO] [Sawmill/]: Injecting Carpenter Village Houses
-[19Dec2025 17:55:58.253] [Server thread/INFO] [Framework/]: Loading server configs...
-[19Dec2025 17:55:58.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[19Dec2025 17:56:00.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Dec2025 17:56:04.384] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.385] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.385] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.386] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.387] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.387] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.388] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Dec2025 17:56:04.487] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3696 ms
-[19Dec2025 17:56:04.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.361s)! For help, type "help"
-[19Dec2025 17:56:04.573] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[19Dec2025 17:56:28.880] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:60287] logged in with entity id 6 at (-352.7625497955933, 64.0, -190.51096301546062)
-[19Dec2025 17:56:29.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
-[19Dec2025 17:56:31.093] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2318ms or 46 ticks behind
-[19Dec2025 17:56:31.900] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 17:56:31.917] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 17:56:31.918] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 17:56:35.201] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
-[19Dec2025 17:56:35.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
-[19Dec2025 17:57:32.985] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:35345] logged in with entity id 282 at (-352.7625497955933, 64.0, -190.51096301546062)
-[19Dec2025 17:57:33.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
-[19Dec2025 17:57:35.519] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 17:57:35.550] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 17:57:35.551] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 17:57:43.645] [Worker-Main-3/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
-[19Dec2025 18:00:05.253] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
-[19Dec2025 18:08:00.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT drowned
-[19Dec2025 18:08:00.437] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 7b93d25c-6e1d-4bfc-8976-0d6d1a0a3bf5
-[19Dec2025 18:14:55.466] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 18:16:55.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set the weather to clear]
-[19Dec2025 18:20:15.422] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[19Dec2025 18:20:15.424] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[19Dec2025 18:20:15.424] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[19Dec2025 18:20:15.424] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[19Dec2025 18:20:15.425] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[19Dec2025 18:20:15.428] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[19Dec2025 18:20:15.429] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[19Dec2025 18:20:15.429] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[19Dec2025 18:20:15.430] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[19Dec2025 18:20:22.505] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[19Dec2025 18:20:22.506] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[19Dec2025 18:20:22.507] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[19Dec2025 18:20:22.507] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[19Dec2025 18:20:22.508] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[19Dec2025 18:20:22.508] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[19Dec2025 18:20:22.509] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[19Dec2025 18:20:22.509] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[19Dec2025 18:20:22.509] [Worker-Main-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[19Dec2025 18:21:27.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Acquire Hardware]
-[19Dec2025 18:24:07.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Diamonds!]
-[19Dec2025 18:24:08.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Ice Bucket Challenge]
-[19Dec2025 18:24:14.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Suit Up]
-[19Dec2025 18:32:02.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Monster Hunter]
-[19Dec2025 18:32:09.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Sweet Dreams]
-[19Dec2025 18:32:38.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [A Major Trial Of Strengh]
-[19Dec2025 18:37:33.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT moved too quickly! 9.177009556143673,-2.1661092609382138,-4.03027188158498
-[19Dec2025 18:39:38.456] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT moved too quickly! 9.332892909711404,-0.8232407249357578,-3.6971203523286533
-[19Dec2025 18:56:18.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 18:57:29.180] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
-[19Dec2025 19:03:14.781] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/9519, l='ServerLevel[world]', x=-561.22, y=70.00, z=200.51] died, message: 'Weaponsmith was slain by Zombie'
-[19Dec2025 19:22:29.728] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/9517, l='ServerLevel[world]', x=-542.30, y=74.00, z=131.32] died, message: 'Cleric was slain by Zombie'
-[19Dec2025 19:24:34.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 19:24:40.328] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
-[19Dec2025 19:24:40.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
-[19Dec2025 19:24:47.014] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:46703] logged in with entity id 18035 at (-514.0370321852274, 72.0, 212.89142790984695)
-[19Dec2025 19:24:47.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
-[19Dec2025 19:24:49.242] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 19:24:49.258] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:24:49.259] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:26:39.648] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Violaperras69[/127.31.23.140:53959] logged in with entity id 18589 at (-62.5, 84.0, -129.5)
-[19Dec2025 19:26:39.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 joined the game
-[19Dec2025 19:26:47.830] [Server thread/INFO] [do_a_barrel_roll/]: Client of Violaperras69 accepted server config.
-[19Dec2025 19:26:48.007] [Server thread/INFO] [carpet/]: Player Violaperras69 joined with a matching carpet client
-[19Dec2025 19:26:48.008] [Server thread/INFO] [carpet/]: Player Violaperras69 joined with a matching carpet client
-[19Dec2025 19:27:45.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to Violaperras69]
-[19Dec2025 19:27:51.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 19:28:58.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
-[19Dec2025 19:28:58.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
-[19Dec2025 19:30:09.144] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:42991] logged in with entity id 20601 at (-521.762115999392, 75.0, 224.35582900111524)
-[19Dec2025 19:30:09.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
-[19Dec2025 19:30:13.191] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 19:30:13.232] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:30:13.233] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:30:32.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Violaperras69 to visatap23_YT]
-[19Dec2025 19:33:05.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 19:35:23.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Hot Stuff]
-[19Dec2025 19:35:35.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 19:35:41.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Adventure Mode]
-[19Dec2025 19:36:34.128] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
-[19Dec2025 19:36:34.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
-[19Dec2025 19:36:36.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 has made the advancement [Sweet Dreams]
-[19Dec2025 19:36:38.059] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:37037] logged in with entity id 22636 at (-380.1407368043746, 64.0, 143.5550193397883)
-[19Dec2025 19:36:38.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
-[19Dec2025 19:36:40.111] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 19:36:40.129] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:36:40.130] [Server thread/INFO] [carpet/]: Player visatap23_YT joined with a matching carpet client
-[19Dec2025 19:36:58.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 19:38:12.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 was slain by visatap23_YT
-[19Dec2025 19:38:12.458] [Server thread/INFO] [gravestone/]: The death ID of player Violaperras69 is a7312180-e738-47e0-9642-d3c727156b67
-[19Dec2025 19:38:15.216] [Server thread/INFO] [do_a_barrel_roll/]: Client of Violaperras69 accepted server config.
-[19Dec2025 19:38:27.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Violaperras69 to visatap23_YT]
-[19Dec2025 19:39:38.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 was slain by Zombie
-[19Dec2025 19:39:38.629] [Server thread/INFO] [gravestone/]: The death ID of player Violaperras69 is d5f99e30-cf07-44df-8222-9f28a70d310c
-[19Dec2025 19:39:40.072] [Server thread/INFO] [do_a_barrel_roll/]: Client of Violaperras69 accepted server config.
-[19Dec2025 19:39:44.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Violaperras69 to visatap23_YT]
-[19Dec2025 19:40:35.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 has made the advancement [Monster Hunter]
-[19Dec2025 19:40:42.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 was slain by visatap23_YT
-[19Dec2025 19:40:42.134] [Server thread/INFO] [gravestone/]: The death ID of player Violaperras69 is 3955edd3-e3dc-49cd-af8d-532114f172e7
-[19Dec2025 19:40:43.495] [Server thread/INFO] [do_a_barrel_roll/]: Client of Violaperras69 accepted server config.
-[19Dec2025 19:40:45.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Violaperras69 to visatap23_YT]
-[19Dec2025 19:43:21.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 has made the advancement [Stone Age]
-[19Dec2025 19:46:45.673] [pool-6-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [minecraft:village_taiga, minecraft:village_desert, minecraft:village_snowy, minecraft:village_plains, minecraft:village_savanna] from position BlockPos{x=-811, y=72, z=341}
-[19Dec2025 19:46:45.691] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.691] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.692] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.692] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.693] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.693] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.694] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.694] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.694] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.695] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.695] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.696] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.696] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.696] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.697] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.698] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.698] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.698] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.698] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.702] [pool-6-thread-1/WARN] [bettercaves/]: AquiferContext is null in AquiferMixin, this should not happen!
-[19Dec2025 19:46:45.702] [pool-6-thread-1/ERROR] [bettercaves/]: Failed to fetch the AquiferContext. Liquid Regions for YUNG's Better Caves may not generate properly.
-[19Dec2025 19:46:45.702] [pool-6-thread-1/ERROR] [bettercaves/]: This is a mod compatibility issue. Please report it to the Better Caves GitHub issue tracker!
-[19Dec2025 19:46:45.829] [pool-6-thread-1/INFO] [Supplementaries/]: 
- Structure locator found 2 structures: 
-minecraft:village_savanna at BlockPos{x=-512, y=0, z=240}, dist = 323.70665733036753
-minecraft:village_savanna at BlockPos{x=-336, y=0, z=736}, dist = 621.9598057752606
-[19Dec2025 19:53:39.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Violaperras69> Ez
-[19Dec2025 20:06:06.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was blown up by Creeper
-[19Dec2025 20:06:06.482] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 78835485-9582-430c-b84b-4f60646cf4fd
-[19Dec2025 20:06:09.010] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 20:06:18.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to Violaperras69]
-[19Dec2025 20:10:54.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was shot by Skeleton
-[19Dec2025 20:10:54.480] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 27bd13b6-6b6d-4ecd-96fa-3ed91279a001
-[19Dec2025 20:10:55.993] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 20:10:57.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to Violaperras69]
-[19Dec2025 20:11:12.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 20:12:03.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 20:13:51.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 20:20:39.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 20:22:40.879] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Violaperras69 lost connection: Disconnected
-[19Dec2025 20:22:40.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Violaperras69 left the game
-[19Dec2025 20:27:25.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Spectator Mode]
-[19Dec2025 20:27:31.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 20:28:01.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 20:30:57.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Spectator Mode]
-[19Dec2025 20:31:26.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 20:54:30.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT fell from a high place
-[19Dec2025 20:54:30.150] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 83a865cc-7098-490d-820d-391cbb3d0a93
-[19Dec2025 20:54:31.495] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 21:03:42.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:03:56.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:07:44.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT fell from a high place
-[19Dec2025 21:07:44.933] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is a7f514cb-ff1b-44e7-94fe-bce7b29b8ff9
-[19Dec2025 21:07:46.223] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 21:07:49.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:08:19.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:13:44.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:13:49.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:15:18.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:15:23.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:16:20.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:16:24.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:22:23.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [The Andesite Age]
-[19Dec2025 21:22:50.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT moved too quickly! -9.32410344776764,1.9769118908984495,-3.808855755093731
-[19Dec2025 21:24:06.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Bonk!]
-[19Dec2025 21:39:20.397] [Server thread/INFO] [com.simibubi.create.Create/]: RecipeTrie of depth 3 with 167 nodes built with 173 variants, 163 ingredients, and 167 recipes
-[19Dec2025 21:41:08.506] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-423, y=53, z=166} BlockPos{x=-423, y=54, z=166}
-[19Dec2025 21:43:55.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was shot by Pillager
-[19Dec2025 21:43:55.882] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is b2f701c9-444b-4242-92b9-b2c03f692955
-[19Dec2025 21:43:56.999] [Server thread/INFO] [do_a_barrel_roll/]: Client of visatap23_YT accepted server config.
-[19Dec2025 21:43:58.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
-[19Dec2025 21:44:29.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
-[19Dec2025 21:51:02.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Timed out
-[19Dec2025 21:51:02.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
-[19Dec2025 21:51:02.977] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21Dec2025 18:15:57.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[21Dec2025 18:15:58.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[21Dec2025 18:15:58.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Dec2025 18:15:58.049] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[21Dec2025 18:15:58.049] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[21Dec2025 18:15:58.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[21Dec2025 18:15:58.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[21Dec2025 18:15:58.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.16 Target: 1.20-2.16.16-forge
+[21Dec2025 18:15:58.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[21Dec2025 18:15:58.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[21Dec2025 18:15:58.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[21Dec2025 18:15:58.375] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.41 Target: null
+[21Dec2025 18:15:58.375] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[21Dec2025 18:15:58.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[21Dec2025 18:15:58.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[21Dec2025 18:15:58.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[21Dec2025 18:15:58.583] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[21Dec2025 18:15:58.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[21Dec2025 18:15:58.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[21Dec2025 18:15:58.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[21Dec2025 18:15:58.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge
+[21Dec2025 18:15:58.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: UP_TO_DATE Current: 3.9.5 Target: null
+[21Dec2025 18:15:58.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[21Dec2025 18:15:58.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[21Dec2025 18:16:03.400] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Dec2025 18:16:07.389] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[21Dec2025 18:16:07.389] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tuputamadreland/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[21Dec2025 18:16:07.547] [main/INFO] [com.simibubi.create.Create/]: Created 325 recipes which will be injected into the game
+[21Dec2025 18:16:07.562] [main/INFO] [com.simibubi.create.Create/]: Created 24 tags which will be injected into the game
+[21Dec2025 18:16:07.665] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [supplementaries, sawmill]: [net.mehvahdjukaar.supplementaries.dynamicpack.ServerDynamicResourcesGenerator@60adf13c, net.mehvahdjukaar.sawmill.SawmillRecipeGenerator@3196908a]
+[21Dec2025 18:16:07.666] [main/INFO] [Moonlight/]: Generating runtime assets for pack Supplementaries Generated Pack (supplementaries)
+[21Dec2025 18:16:07.694] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 27 ms (multithreaded)
+[21Dec2025 18:16:07.694] [main/INFO] [Moonlight/]: Generating runtime assets for pack Sawmill Sawmill Recipes (sawmill)
+[21Dec2025 18:16:07.694] [main/INFO] [Sawmill/]: Generated runtime SERVER_DATA for pack Sawmill Sawmill Recipes (sawmill) in: 0 ms (debug resource dump on) (multithreaded)
+[21Dec2025 18:16:07.694] [main/INFO] [Moonlight/]: Finished runtime resources generation for 2 packs in a total of 28 ms
+[21Dec2025 18:16:09.080] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[21Dec2025 18:16:10.018] [Worker-Main-2/INFO] [Mantle/]: Loaded 20 loot table injectors injecting into 18 tables in 14.829804 ms
+[21Dec2025 18:16:10.363] [main/INFO] [Sawmill/]: Intercepted tag results
+[21Dec2025 18:16:10.459] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[21Dec2025 18:16:10.492] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[21Dec2025 18:16:10.525] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe tconstruct:smeltery/alloys/molten_pewter as it's serializer returned null
+[21Dec2025 18:16:10.635] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[21Dec2025 18:16:10.666] [main/INFO] [Sawmill/]: Generating Sawmill Recipes
+[21Dec2025 18:16:10.761] [main/INFO] [Sawmill/]: Generated Sawmill recipes in 94 milliseconds
+[21Dec2025 18:16:10.766] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 46 recipes
+[21Dec2025 18:16:10.804] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[21Dec2025 18:16:10.851] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[21Dec2025 18:16:10.898] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[21Dec2025 18:16:10.948] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[21Dec2025 18:16:10.961] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[21Dec2025 18:16:11.027] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5018 advancements
+[21Dec2025 18:16:11.058] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 58 materials in 6.748634 ms
+[21Dec2025 18:16:11.062] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 9 material tags for 42 materials in 4.240972 ms
+[21Dec2025 18:16:11.074] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 412 stats loaded for 69 materials in 10.939563 ms
+[21Dec2025 18:16:11.087] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 229 traits loaded for 69 materials in 11.879303 ms
+[21Dec2025 18:16:11.158] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 154 dynamic modifiers and 4 modifier redirects in 70.53592 ms
+[21Dec2025 18:16:11.162] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 42 modifier tags for 141 modifiers in 4.213391 ms
+[21Dec2025 18:16:11.163] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.552689 ms
+[21Dec2025 18:16:11.167] [main/INFO] [tconstruct/]: Loaded 48 spilling fluids in 4.323686 ms
+[21Dec2025 18:16:11.169] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 1.241904 ms
+[21Dec2025 18:16:11.179] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[21Dec2025 18:16:11.204] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 38 tool definitions in 10.270686 ms
+[21Dec2025 18:16:11.208] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.195647 ms
+[21Dec2025 18:16:14.493] [main/INFO] [Moonlight/]: Applied 20 data villager trades
+[21Dec2025 18:16:14.560] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[21Dec2025 18:16:14.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Dec2025 18:16:14.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Dec2025 18:16:14.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Dec2025 18:16:14.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Dec2025 18:16:14.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Dec2025 18:16:14.919] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Dec2025 18:16:15.000] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Dec2025 18:16:15.000] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Dec2025 18:16:15.001] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Dec2025 18:16:15.001] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Dec2025 18:16:15.135] [Server thread/INFO] [Sawmill/]: Injecting Carpenter Village Houses
+[21Dec2025 18:16:15.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Dec2025 18:16:18.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Dec2025 18:16:21.497] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.498] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.499] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.499] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.500] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.501] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.502] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:21.723] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Dec2025 18:16:22.224] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[21Dec2025 18:16:22.675] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4452 ms
+[21Dec2025 18:16:22.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.663s)! For help, type "help"
+[21Dec2025 18:16:22.720] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Dec2025 18:16:22.720] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[21Dec2025 18:16:22.721] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[21Dec2025 18:16:22.797] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[21Dec2025 18:18:11.865] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@35525913[id=<null>,name=visatap23_YT,properties={},legacy=false] (/127.69.163.222:54243) lost connection: Disconnected
+[21Dec2025 18:18:47.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:46051] logged in with entity id 229 at (16.78708387102658, 79.0, -32.39331352862345)
+[21Dec2025 18:18:47.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 18:19:55.251] [Worker-Main-12/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[21Dec2025 18:20:08.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Alex's Mobs]
+[21Dec2025 18:23:25.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Sweet Dreams]
+[21Dec2025 18:23:27.774] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:39891] logged in with entity id 1771 at (-22.5, 69.0, -63.5)
+[21Dec2025 18:23:27.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 18:23:27.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Ice and Fire]
+[21Dec2025 18:24:03.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 18:24:03.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 18:24:11.535] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:59579] logged in with entity id 1999 at (-32.56448348958164, 70.53584062504456, -49.64220581939664)
+[21Dec2025 18:24:11.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 18:25:52.945] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 18:25:52.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 18:27:23.385] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:41787] logged in with entity id 3190 at (-6.644672134056625, 64.0, -125.19195530026104)
+[21Dec2025 18:27:23.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 18:27:37.972] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 18:27:37.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 18:31:49.182] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:42373] logged in with entity id 4003 at (-6.644672134056625, 64.0, -125.19195530026104)
+[21Dec2025 18:31:49.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 18:32:11.623] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 18:32:11.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 18:32:13.166] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 18:32:13.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 18:35:01.722] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:42471] logged in with entity id 4291 at (-0.4575629439913236, 67.0, -131.88622571897537)
+[21Dec2025 18:35:01.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 18:35:07.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:57001] logged in with entity id 4399 at (140.54911378115526, 71.9375, 139.7788300412821)
+[21Dec2025 18:35:07.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 18:38:02.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Monster Hunter]
+[21Dec2025 18:38:20.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Sweet Dreams]
+[21Dec2025 18:38:44.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Monster Hunter]
+[21Dec2025 18:39:32.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Stone Age]
+[21Dec2025 18:41:24.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Getting an Upgrade]
+[21Dec2025 18:42:05.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Stone Age]
+[21Dec2025 18:49:14.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Acquire Hardware]
+[21Dec2025 19:00:55.485] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:51257] logged in with entity id 9675 at (-14.5, 67.0, -59.5)
+[21Dec2025 19:00:55.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 19:00:55.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Ice and Fire]
+[21Dec2025 19:01:05.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> 173 79
+[21Dec2025 19:02:28.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> 173 79
+[21Dec2025 19:04:23.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Acquire Hardware]
+[21Dec2025 19:05:00.623] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 19:05:00.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 19:05:39.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Getting an Upgrade]
+[21Dec2025 19:09:49.630] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:56203] logged in with entity id 12338 at (174.35927950362563, 73.16610926093821, 71.7793897094161)
+[21Dec2025 19:09:49.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 19:11:34.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> no malaspalabrasplis jaja
+[21Dec2025 19:11:48.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made visatap23_YT a server operator
+[21Dec2025 19:12:49.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 19:12:59.475] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 19:12:59.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 19:14:34.880] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:53011] logged in with entity id 13300 at (245.6782697539479, 93.0, 128.7121707583376)
+[21Dec2025 19:14:34.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 19:14:56.478] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 19:14:56.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 19:17:28.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Stone Age]
+[21Dec2025 19:17:56.840] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:55289] logged in with entity id 14180 at (245.6782697539479, 93.0, 128.7121707583376)
+[21Dec2025 19:17:56.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 19:18:13.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 19:18:23.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Hot Stuff]
+[21Dec2025 19:19:23.923] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 19:19:23.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 19:19:50.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 fell from a high place
+[21Dec2025 19:19:50.127] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 0a83ad68-aab8-4d02-8163-070c7949b94a
+[21Dec2025 19:19:53.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> XD
+[21Dec2025 19:20:22.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Monster Hunter]
+[21Dec2025 19:20:28.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Sweet Dreams]
+[21Dec2025 19:21:19.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:50335] logged in with entity id 14979 at (245.6782697539479, 93.0, 128.7121707583376)
+[21Dec2025 19:21:19.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 19:22:36.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 19:22:36.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 19:22:53.577] [Worker-Main-31/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[21Dec2025 19:22:55.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [We Need to Go Deeper]
+[21Dec2025 19:22:56.267] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT moved too quickly! -5.633455651293218,-5.323529123855721,-6.9914440730402845
+[21Dec2025 19:22:56.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3171ms or 63 ticks behind
+[21Dec2025 19:22:56.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [A Terrible Fortress]
+[21Dec2025 19:23:24.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 19:23:24.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 19:23:37.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [We Need to Go Deeper]
+[21Dec2025 19:23:37.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [A Terrible Fortress]
+[21Dec2025 19:26:47.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:45031] logged in with entity id 16830 at (6.481057494942285, 19.0, 8.906516084880105)
+[21Dec2025 19:26:48.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 19:27:20.796] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:51957] logged in with entity id 17196 at (178.21582077577784, 73.0, 71.28951532647189)
+[21Dec2025 19:27:20.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 19:31:56.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Not Today, Thank You]
+[21Dec2025 19:32:17.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ withered away
+[21Dec2025 19:32:17.428] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 2ae234be-fbeb-452e-bab3-7c60e8d28ca0
+[21Dec2025 19:33:33.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Zombie
+[21Dec2025 19:33:33.819] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is d6df0ac4-946b-4704-a8d7-0a0f8268e502
+[21Dec2025 19:35:32.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Into Fire]
+[21Dec2025 19:36:17.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ burned to death
+[21Dec2025 19:36:17.831] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is dfd232ef-73db-4dc4-9055-f700811c9968
+[21Dec2025 19:36:26.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was shot by Skeleton
+[21Dec2025 19:36:26.782] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is fac8b7e5-6e39-48a3-b38b-b85f27881923
+[21Dec2025 19:36:32.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Spider
+[21Dec2025 19:36:32.774] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is a86e481a-1958-4309-a18a-369e35fbf9d2
+[21Dec2025 19:37:19.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: The difficulty has been set to Normal]
+[21Dec2025 19:38:02.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Getting an Upgrade]
+[21Dec2025 19:41:44.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ burned to death
+[21Dec2025 19:41:44.831] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is f519ce28-f3ba-4d19-9abd-b9ec313eb6fa
+[21Dec2025 19:44:18.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <visatap23_YT> -598736435773127051
+[21Dec2025 19:48:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Isn't It Iron Pick]
+[21Dec2025 19:49:47.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was shot by Skeleton
+[21Dec2025 19:49:47.931] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is ee396bfb-081c-40ef-87d8-61c13853174f
+[21Dec2025 19:50:26.770] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/28105, l='ServerLevel[world]', x=185.06, y=89.92, z=143.90] died, message: 'Mason was slain by Zombie'
+[21Dec2025 19:50:42.677] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/28085, l='ServerLevel[world]', x=178.92, y=82.94, z=139.59] died, message: 'Leatherworker was slain by Zombie Villager'
+[21Dec2025 19:52:22.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Enderman
+[21Dec2025 19:52:22.402] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 8c2b17e3-ad34-45eb-8d75-a8d91eb92d55
+[21Dec2025 19:56:49.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 hit the ground too hard
+[21Dec2025 19:56:49.056] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 92a19f6b-923f-45f7-bd18-db927a0e09bc
+[21Dec2025 19:58:46.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to -409.500000, 58.000000, 73.500000]
+[21Dec2025 19:59:33.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was doomed to fall by Drowned
+[21Dec2025 19:59:33.204] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is af1ebc3e-e626-4c69-b144-80c84dfb9475
+[21Dec2025 20:00:00.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was blown up by Ghast
+[21Dec2025 20:00:00.332] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 778c9ce2-9b8c-4f43-ad6c-ec4086c5fd9e
+[21Dec2025 20:00:07.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to -409.500000, 58.000000, 73.500000]
+[21Dec2025 20:04:56.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has reached the goal [Blood Island]
+[21Dec2025 20:06:33.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Mine? Mine? Mine?]
+[21Dec2025 20:06:47.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was shot by Skeleton
+[21Dec2025 20:06:47.119] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is ce80a814-1cb0-4bb1-9fb0-f202418adf8b
+[21Dec2025 20:07:37.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Zombie
+[21Dec2025 20:07:37.469] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 839b4797-aef4-45f2-abba-844c1aabb13b
+[21Dec2025 20:10:32.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Mine? Mine? Mine?]
+[21Dec2025 20:12:58.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Acquire Hardware]
+[21Dec2025 20:14:22.618] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=162, y=56, z=671} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=162, y=56, z=671}
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=174, y=56, z=658} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=174, y=56, z=658}
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=160, y=56, z=669} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=160, y=56, z=669}
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=160, y=56, z=671} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=160, y=56, z=671}
+[21Dec2025 20:14:22.619] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=162, y=56, z=669} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=162, y=56, z=669}
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=174, y=56, z=656} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=174, y=56, z=656}
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=160, y=56, z=656} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=160, y=56, z=656}
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=160, y=56, z=658} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=160, y=56, z=658}
+[21Dec2025 20:14:22.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=162, y=56, z=656} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=162, y=56, z=656}
+[21Dec2025 20:14:22.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=162, y=56, z=658} but found not block entity block Block{minecraft:air} at location
+[21Dec2025 20:14:22.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=162, y=56, z=658}
+[21Dec2025 20:15:01.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ withered away whilst fighting Blaze
+[21Dec2025 20:15:01.087] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is d7cb790e-2baa-427d-b979-103b671eceb1
+[21Dec2025 20:15:10.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT was kicked for floating too long!
+[21Dec2025 20:15:10.533] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 20:15:10.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 20:15:10.579] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21Dec2025 20:15:24.384] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:56587] logged in with entity id 42887 at (344.50596592775577, 118.1212968405392, 236.0623447639574)
+[21Dec2025 20:15:24.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 20:22:35.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> lol
+[21Dec2025 20:28:24.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT drowned
+[21Dec2025 20:28:24.229] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 481aeb3e-8c89-4c5d-b87a-da000d2a51d2
+[21Dec2025 20:29:11.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> nomalaspalabras
+[21Dec2025 20:31:32.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Bison
+[21Dec2025 20:31:32.466] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 22d15ca9-df07-48a6-886f-1534a36a7f7f
+[21Dec2025 20:34:48.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Gelada Monkey
+[21Dec2025 20:34:48.716] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is acda17d0-955e-432f-adda-6f2703c6fe5f
+[21Dec2025 20:36:44.380] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 20:36:44.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 20:36:54.935] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:55309] logged in with entity id 48967 at (341.1729543154354, 112.0, 195.2933838132097)
+[21Dec2025 20:36:54.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 20:47:49.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Into Fire]
+[21Dec2025 20:50:54.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Enderman
+[21Dec2025 20:50:54.672] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 9bf02fe7-9834-49db-bde1-d414dd91d4ce
+[21Dec2025 20:51:06.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Enderman
+[21Dec2025 20:51:06.120] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 065eeab4-c4d1-40c8-af5d-0869cd4c875a
+[21Dec2025 20:52:34.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> duerme topo
+[21Dec2025 20:56:22.999] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 moved too quickly! -9.211362786959427,1.7531999805212024,3.816773175754008
+[21Dec2025 20:59:42.223] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 20:59:42.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 21:05:36.334] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:46123] logged in with entity id 56762 at (162.13788353178404, 73.0, 86.49660665341666)
+[21Dec2025 21:05:36.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 21:08:01.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT hit the ground too hard
+[21Dec2025 21:08:01.936] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 1ae62bce-55c8-42af-b336-3186667b8e92
+[21Dec2025 21:08:59.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to Idirsex2000]
+[21Dec2025 21:09:48.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to Idirsex2000]
+[21Dec2025 21:10:43.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=184, y=69, z=76} BlockPos{x=184, y=68, z=76}
+[21Dec2025 21:10:53.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Spider
+[21Dec2025 21:10:53.417] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 3a5c3e68-d617-4684-a3b8-d8601f8af42a
+[21Dec2025 21:11:26.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:11:26.128] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 92662b67-0b30-4a6e-97c6-b3535e4a2eef
+[21Dec2025 21:11:28.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Qiuu__
+[21Dec2025 21:11:28.443] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 6d2e3e10-034a-4239-b2cb-bc904cf68d2e
+[21Dec2025 21:11:49.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:11:49.725] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is d947b5f8-7fde-49b0-8a66-86fe6226e716
+[21Dec2025 21:11:58.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:11:58.201] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 46f05e48-e5e9-4205-b9e6-7cdf694af547
+[21Dec2025 21:12:06.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:12:06.081] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 346c9d66-168b-4722-bcd4-ac65dd02fd5d
+[21Dec2025 21:12:24.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:12:24.378] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 7af76bf6-79ae-4ef4-8bc8-b1e47c1b8eef
+[21Dec2025 21:12:28.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> controlen sus impulsos homosexuales
+[21Dec2025 21:12:36.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:12:36.299] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 383c38c5-c023-4b82-a560-cb5b40d11ba7
+[21Dec2025 21:12:48.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Qiuu__
+[21Dec2025 21:12:48.840] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 5b8ef059-9e82-48e5-90a8-7e5d5170d42a
+[21Dec2025 21:12:58.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:12:58.789] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 9b62af8b-c8c1-4ccf-b16f-03ebb77b1ec4
+[21Dec2025 21:12:59.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [Suit Up]
+[21Dec2025 21:13:09.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Qiuu__
+[21Dec2025 21:13:09.090] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 242c48d2-1953-4aa0-939e-747c01a885dc
+[21Dec2025 21:13:23.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Qiuu__
+[21Dec2025 21:13:23.047] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 44f132e9-d7ab-4736-a8f8-68143f12e8c9
+[21Dec2025 21:13:35.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Enderman
+[21Dec2025 21:13:35.017] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is cbfc8b3f-1716-435b-ac7b-5a127c2eb56e
+[21Dec2025 21:13:40.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Idirsex2000
+[21Dec2025 21:13:40.751] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 24f1730e-71d6-48bd-8114-35822b5cfb43
+[21Dec2025 21:15:08.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:15:08.745] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is b84f6310-52c7-48bc-9e07-37edb32edff1
+[21Dec2025 21:15:20.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Qiuu__
+[21Dec2025 21:15:20.140] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 05f15b65-fbd9-4813-aed1-1d953c3678be
+[21Dec2025 21:15:43.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Qiuu__
+[21Dec2025 21:15:43.726] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 9131bd91-fb56-42c4-a872-df255c89f92e
+[21Dec2025 21:15:56.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:15:56.681] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 3bcfd0c5-c0ee-4300-8a65-e8bc29bc3c90
+[21Dec2025 21:16:08.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:16:08.596] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is b8c4ba9c-92ae-470b-bdd3-8666ef6c6af2
+[21Dec2025 21:16:24.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Idirsex2000
+[21Dec2025 21:16:24.395] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 834fe68c-a0ad-4d8c-8507-22c233c2b209
+[21Dec2025 21:18:17.117] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=48, z=214}
+[21Dec2025 21:18:17.118] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=48, z=214}
+[21Dec2025 21:18:17.118] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=49, z=214}
+[21Dec2025 21:18:17.118] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=49, z=214}
+[21Dec2025 21:18:17.119] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=50, z=214}
+[21Dec2025 21:18:17.119] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=50, z=214}
+[21Dec2025 21:18:17.428] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=49, z=214}
+[21Dec2025 21:18:17.428] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=48, z=214}
+[21Dec2025 21:18:17.429] [Worker-Main-32/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=50, z=214}
+[21Dec2025 21:18:22.320] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=48, z=214}
+[21Dec2025 21:18:22.321] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=49, z=214}
+[21Dec2025 21:18:22.322] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=311, y=50, z=214}
+[21Dec2025 21:18:22.368] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=48, z=214}
+[21Dec2025 21:18:22.369] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=49, z=214}
+[21Dec2025 21:18:22.369] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=48, z=214}
+[21Dec2025 21:18:22.369] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=49, z=214}
+[21Dec2025 21:18:22.369] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=310, y=50, z=214}
+[21Dec2025 21:18:22.369] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=309, y=50, z=214}
+[21Dec2025 21:18:40.636] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/61109, l='ServerLevel[world]', x=-267.44, y=0.00, z=522.30] died, message: 'Villager was shot by Pillager'
+[21Dec2025 21:19:40.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ withered away whilst fighting Skeleton
+[21Dec2025 21:19:40.638] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is f31465e8-fa3e-4eb9-8f3b-40be75cece14
+[21Dec2025 21:19:57.233] [Worker-Main-31/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=217, y=48, z=159}
+[21Dec2025 21:20:28.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Spectator Mode]
+[21Dec2025 21:20:48.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 21:21:00.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:21:00.174] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 68b65b6d-7757-4714-84ca-88d8d77b8b45
+[21Dec2025 21:21:19.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Idirsex2000 to visatap23_YT]
+[21Dec2025 21:25:03.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was fireballed by Blaze
+[21Dec2025 21:25:03.485] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 85181ae6-6698-465b-af96-9809b4574328
+[21Dec2025 21:25:26.578] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/52014, l='ServerLevel[world]', x=168.16, y=71.90, z=79.17] died, message: 'Villager was impaled by Drowned'
+[21Dec2025 21:25:32.081] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/41472, l='ServerLevel[world]', x=168.36, y=71.90, z=79.18] died, message: 'Villager was impaled by Drowned'
+[21Dec2025 21:25:35.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was impaled by Drowned
+[21Dec2025 21:25:35.981] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 541ff61f-f070-4e94-b72e-d6aac74510c6
+[21Dec2025 21:25:44.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was impaled by Drowned
+[21Dec2025 21:25:44.875] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 502824b3-606e-456d-999e-ac039053c41f
+[21Dec2025 21:25:55.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was impaled by Drowned
+[21Dec2025 21:25:55.975] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is abc220b1-c5d1-44ca-98d9-9ca5d26943b2
+[21Dec2025 21:26:05.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ withered away whilst fighting Wither Skeleton
+[21Dec2025 21:26:05.580] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 85b67231-63a0-4a65-abfb-dead4107b459
+[21Dec2025 21:26:05.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was impaled by Drowned
+[21Dec2025 21:26:05.724] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 340a03c5-33fc-48a7-bfb8-b3094972af22
+[21Dec2025 21:27:18.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was shot by Skeleton
+[21Dec2025 21:27:18.327] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is cad558c0-5cef-4630-97ef-6c44bb8c9a22
+[21Dec2025 21:27:21.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Zombie
+[21Dec2025 21:27:21.969] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 4f88e065-8882-434b-aa7c-11d201131c33
+[21Dec2025 21:27:41.271] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/49267, l='ServerLevel[world]', x=168.16, y=71.90, z=79.17] died, message: 'Villager was slain by Zombie'
+[21Dec2025 21:28:11.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ withered away
+[21Dec2025 21:28:11.179] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 1af2c887-d001-4b32-af5f-acfcf77685dd
+[21Dec2025 21:28:40.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was shot by Skeleton
+[21Dec2025 21:28:40.121] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is d2e3b601-7013-43ac-8013-3edc6339ac93
+[21Dec2025 21:28:40.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <visatap23_YT> -
+[21Dec2025 21:29:02.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 hit the ground too hard whilst trying to escape Skeleton
+[21Dec2025 21:29:02.990] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is cd1a2c12-c209-4e79-9abe-fa337706db4f
+[21Dec2025 21:29:18.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was shot by Skeleton
+[21Dec2025 21:29:18.872] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 1151a138-ba70-4db5-ac4a-4224f792b2ed
+[21Dec2025 21:30:01.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to 7.500000, 19.000000, 14.500000]
+[21Dec2025 21:30:12.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was shot by Skeleton
+[21Dec2025 21:30:12.871] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is ca8fb094-f640-4e21-806e-7ec686fd2a2a
+[21Dec2025 21:30:56.204] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_horse_armor
+[21Dec2025 21:31:19.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Ghost
+[21Dec2025 21:31:19.222] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 8bb818d1-fb01-4935-9178-c8e880babf25
+[21Dec2025 21:31:19.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by Piglin
+[21Dec2025 21:31:19.525] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is b7da250f-8b21-4137-84e5-aefbf2efdb8d
+[21Dec2025 21:31:41.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Who You Gonna Call?]
+[21Dec2025 21:31:46.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to 80.500000, 83.000000, 55.500000]
+[21Dec2025 21:33:31.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ hit the ground too hard
+[21Dec2025 21:33:31.796] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 6fa0356d-8da5-4d49-9ef0-d6a7abda8259
+[21Dec2025 21:33:43.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 21:33:43.654] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 70f87cf3-f8d4-48f1-aebf-3755ad2c426d
+[21Dec2025 21:34:13.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [We Need to Go Deeper]
+[21Dec2025 21:34:13.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [A Terrible Fortress]
+[21Dec2025 21:34:22.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to 81.500000, 83.000000, 19.500000]
+[21Dec2025 21:36:16.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Ghost
+[21Dec2025 21:36:16.575] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 375b85bb-f620-43d9-92bb-0cbd4204271d
+[21Dec2025 21:38:49.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Wither Skeleton
+[21Dec2025 21:38:49.016] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 6b728c52-5ee0-4153-a3e9-6926fcad64dc
+[21Dec2025 21:39:03.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was slain by Wither Skeleton
+[21Dec2025 21:39:03.967] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is d0c79ef7-cf1e-4f12-9a62-3a7627323c0a
+[21Dec2025 21:39:08.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 21:39:30.218] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 21:39:30.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 21:40:04.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ burned to death
+[21Dec2025 21:40:04.969] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is ea0e30d7-22c7-4efb-93f0-d22f0654bb7c
+[21Dec2025 21:41:03.242] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:41477] logged in with entity id 77582 at (10.365114254444686, 19.0, 6.229596887608365)
+[21Dec2025 21:41:03.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 21:41:53.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported Qiuu__ to 19.500000, 28.000000, 22.500000]
+[21Dec2025 21:42:01.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Diamonds!]
+[21Dec2025 21:42:48.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Diamonds!]
+[21Dec2025 21:43:15.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 21:43:22.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT has made the advancement [Ice Bucket Challenge]
+[21Dec2025 21:43:54.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was fireballed by Blaze
+[21Dec2025 21:43:54.120] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 1fdb5be8-40b3-4854-9783-05bbcd87c831
+[21Dec2025 21:44:11.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 21:44:29.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:44:29.274] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is bc28543d-5008-4352-b978-a455c3f2c2d8
+[21Dec2025 21:44:38.229] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 21:44:38.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 21:45:02.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:45:02.576] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 80b75ac0-155b-41b4-94b1-26bd73ab6806
+[21Dec2025 21:45:39.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:45:39.421] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 482d610b-9660-490a-b7b1-375f69c64778
+[21Dec2025 21:46:05.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:35549] logged in with entity id 79752 at (56.115719532482856, 22.0, 55.765631275407344)
+[21Dec2025 21:46:05.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 21:46:10.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Blaze
+[21Dec2025 21:46:10.026] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is f55f509e-bdea-4387-8f42-792ce7d4bccf
+[21Dec2025 21:46:19.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 21:46:30.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 21:46:50.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:46:50.176] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 93e2e9ec-7e84-4302-8c6b-73fa9569620a
+[21Dec2025 21:46:53.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was fireballed by Blaze
+[21Dec2025 21:46:53.122] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is fa66feab-495e-4119-a7bc-2660a1dade04
+[21Dec2025 21:47:20.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 21:47:20.872] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/226, l='ServerLevel[world]', x=114.20, y=64.50, z=123.70] died, message: 'Leatherworker was slain by Zombie'
+[21Dec2025 21:47:24.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was blown up by Creeper
+[21Dec2025 21:47:24.817] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is b729a11b-6361-48a3-900b-58f251fdeb11
+[21Dec2025 21:47:34.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 21:48:33.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was fireballed by Blaze
+[21Dec2025 21:48:33.983] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 8b03f7a7-4ef4-47ce-8a43-faa3a3f9918a
+[21Dec2025 21:48:59.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:48:59.973] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is cf6e180c-8977-419b-8e21-80703e3da7d3
+[21Dec2025 21:49:40.445] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 golden_horse_armor
+[21Dec2025 21:49:44.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:49:44.269] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 0f941120-1de6-4cd4-b9a3-731df42c72ad
+[21Dec2025 21:49:55.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:49:55.870] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is bd09382b-30ca-4e3b-bd6b-eaa3bd50ccda
+[21Dec2025 21:51:11.731] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 golden_horse_armor
+[21Dec2025 21:51:17.380] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 golden_horse_armor
+[21Dec2025 21:51:19.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Wither Skeleton
+[21Dec2025 21:51:19.827] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 871c4e7a-6de7-4de5-b189-8a1409ca6c0b
+[21Dec2025 21:51:23.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ hit the ground too hard
+[21Dec2025 21:51:23.078] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is f4be815d-9f05-4fda-b8a5-595941ab2bb2
+[21Dec2025 21:52:37.326] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 21:52:37.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 21:52:40.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> 231 55 31
+[21Dec2025 21:54:15.438] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:60183] logged in with entity id 84053 at (28.69999998807907, 78.0, 61.15444166422896)
+[21Dec2025 21:54:15.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 21:54:37.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was impaled by Drowned
+[21Dec2025 21:54:37.924] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is a62ca339-ffa4-44b2-90f7-989451170b1d
+[21Dec2025 21:55:07.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Teleported visatap23_YT to 27.500000, 19.500000, 16.500000]
+[21Dec2025 21:55:08.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 21:55:50.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was impaled by Drowned
+[21Dec2025 21:55:50.170] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 41c78bbc-5a62-40ac-8591-aea344988c1c
+[21Dec2025 21:56:25.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Drowned
+[21Dec2025 21:56:25.519] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 576ed120-1f47-4e54-91c9-28f268f6192d
+[21Dec2025 21:56:52.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ was slain by visatap23_YT
+[21Dec2025 21:56:52.447] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 80fe6d5b-aebd-4b05-b853-0e8518b0f557
+[21Dec2025 21:56:57.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was impaled by Drowned
+[21Dec2025 21:56:57.872] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is eb680ab8-4ae5-4a3e-ad3a-c5d8b7980762
+[21Dec2025 21:57:28.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was impaled by Drowned
+[21Dec2025 21:57:28.526] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 35d2c420-1826-4a20-ab5d-bfad425a3c4e
+[21Dec2025 21:58:08.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Creative Mode]
+[21Dec2025 21:58:23.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 21:58:23.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 21:59:12.921] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 21:59:12.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:08:13.229] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:59513] logged in with entity id 93005 at (178.2977296827029, 72.0, 77.0736748604817)
+[21Dec2025 22:08:13.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 22:11:33.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:35031] logged in with entity id 97032 at (170.46236008798394, 71.0, 60.52789008194932)
+[21Dec2025 22:11:34.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 22:11:59.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [visatap23_YT: Set own game mode to Survival Mode]
+[21Dec2025 22:12:51.920] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 22:12:51.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 22:12:54.273] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 22:12:54.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:13:05.885] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:42689] logged in with entity id 97847 at (89.12665270880618, 68.0, 29.30000001192093)
+[21Dec2025 22:13:05.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 22:13:36.588] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:38613] logged in with entity id 98205 at (171.75361350848053, 63.0, 35.27182899179312)
+[21Dec2025 22:13:36.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 22:14:40.124] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 22:14:40.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 22:20:30.298] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:46633] logged in with entity id 100916 at (181.81769929354493, 72.0, 53.03772201204404)
+[21Dec2025 22:20:30.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 22:23:53.620] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 22:23:53.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 22:25:40.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> IDIR Q HACES
+[21Dec2025 22:25:46.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> ignora las mayusculas
+[21Dec2025 22:25:56.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> salte para dormir
+[21Dec2025 22:27:35.724] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 22:27:35.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:28:48.783] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:45847] logged in with entity id 104415 at (163.0690675226519, 76.0, 113.41042231147992)
+[21Dec2025 22:28:48.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 22:31:41.582] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=210, y=74, z=-43} BlockPos{x=209, y=72, z=-42}
+[21Dec2025 22:31:41.642] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=210, y=74, z=-43} BlockPos{x=209, y=72, z=-42}
+[21Dec2025 22:39:34.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Timed out
+[21Dec2025 22:39:34.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:39:54.782] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:50445] logged in with entity id 114884 at (178.37297730774446, 72.0, 73.85216073954884)
+[21Dec2025 22:39:54.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 22:40:51.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Zombie
+[21Dec2025 22:40:51.219] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 90cfcd9b-c8ad-4d49-8e53-d8a3a5dd035c
+[21Dec2025 22:41:02.017] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/95306, l='ServerLevel[world]', x=169.86, y=71.90, z=77.97] died, message: 'Villager was slain by Zombie'
+[21Dec2025 22:42:14.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Spider
+[21Dec2025 22:42:14.970] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 1d5cdf99-ebe8-496b-b632-0d5e32e8c75e
+[21Dec2025 22:43:20.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was fireballed by Blaze
+[21Dec2025 22:43:20.119] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 29eeb0bf-5851-4877-87d2-10701c9aa41f
+[21Dec2025 22:46:43.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was shot by Skeleton
+[21Dec2025 22:46:43.721] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is daa37a67-bcc2-42b2-86c4-d216f354fc38
+[21Dec2025 22:47:25.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:49833] logged in with entity id 116805 at (181.81769929354493, 72.0, 53.03772201204404)
+[21Dec2025 22:47:25.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 22:48:01.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Hot Stuff]
+[21Dec2025 22:52:06.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Qiuu__> q haces idir
+[21Dec2025 22:53:27.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Suit Up]
+[21Dec2025 22:56:20.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ hit the ground too hard
+[21Dec2025 22:56:20.091] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is cbfd44d7-0c95-42eb-9e9e-5fffffbd6fcb
+[21Dec2025 22:56:23.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 burned to death
+[21Dec2025 22:56:23.219] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 75704e7e-1956-410a-b84a-152807a108fa
+[21Dec2025 22:58:12.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ was kicked for floating too long!
+[21Dec2025 22:58:12.073] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Flying is not enabled on this server
+[21Dec2025 22:58:12.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 22:58:19.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT was fireballed by Blaze
+[21Dec2025 22:58:19.271] [Server thread/INFO] [gravestone/]: The death ID of player visatap23_YT is 9ff1e1a6-7411-4689-b2e1-9a9d185e54a2
+[21Dec2025 22:58:22.434] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:32777] logged in with entity id 118900 at (198.25707800785807, 73.02442408821369, -37.90925611470633)
+[21Dec2025 22:58:22.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 22:58:26.480] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Timed out
+[21Dec2025 22:58:26.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:58:42.730] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:44393] logged in with entity id 119050 at (186.69136618233816, 72.0, 73.09599857898564)
+[21Dec2025 22:58:42.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 22:58:59.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by visatap23_YT
+[21Dec2025 22:58:59.141] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is e9184898-ac94-4818-8e4b-88f0fe1f16d1
+[21Dec2025 22:59:27.819] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Timed out
+[21Dec2025 22:59:27.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 22:59:43.583] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:37019] logged in with entity id 119339 at (187.42075819381327, 72.0, 74.9664909886984)
+[21Dec2025 22:59:43.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 23:00:08.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Qiuu__) moved wrongly! 0.25507506541995895
+[21Dec2025 23:00:08.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Qiuu__) moved wrongly! 0.3459559130955938
+[21Dec2025 23:08:26.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ tried to swim in lava
+[21Dec2025 23:08:26.721] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is cfa5cfa0-afd9-4b2e-8724-94e858bb8e63
+[21Dec2025 23:08:27.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 tried to swim in lava
+[21Dec2025 23:08:27.723] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 372dea7f-b37e-46e6-b9d1-ecbeba7d921c
+[21Dec2025 23:10:30.623] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 23:10:30.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 23:10:41.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 burned to death
+[21Dec2025 23:10:41.825] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is d431953b-efb0-4f9c-aca7-d22ac2c49148
+[21Dec2025 23:11:22.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was burnt to a crisp whilst fighting Blaze
+[21Dec2025 23:11:22.175] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 01fd1bfc-8db8-4c54-8ba0-a72ba0349107
+[21Dec2025 23:11:55.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was fireballed by Blaze
+[21Dec2025 23:11:55.626] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 922c1d46-dbb5-4cfd-9e61-f785bed08aad
+[21Dec2025 23:12:20.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Blaze
+[21Dec2025 23:12:20.067] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 3c7d041e-9d5e-4126-b8e5-76ca9b14b586
+[21Dec2025 23:16:23.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has reached the goal [Advanced Tool Making]
+[21Dec2025 23:17:09.534] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:58541] logged in with entity id 124581 at (164.7256301621329, 72.0, 83.56108643245747)
+[21Dec2025 23:17:09.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 23:18:59.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 has made the advancement [Isn't It Iron Pick]
+[21Dec2025 23:19:08.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT was kicked for floating too long!
+[21Dec2025 23:19:08.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Flying is not enabled on this server
+[21Dec2025 23:19:08.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 23:19:21.033] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:54499] logged in with entity id 125288 at (184.7992705591758, 83.49520087700593, 114.40745892661327)
+[21Dec2025 23:19:21.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 23:23:01.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ walked into fire whilst fighting Idirsex2000
+[21Dec2025 23:23:01.021] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 19882668-5adc-4819-a4f5-4082acd3c5d5
+[21Dec2025 23:23:27.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Blaze
+[21Dec2025 23:23:27.222] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 9301aff2-e366-4365-9202-0e5962f7325d
+[21Dec2025 23:24:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was fireballed by Blaze
+[21Dec2025 23:24:36.123] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 59e2e2b8-a3c1-4219-83e3-e8e62c46255c
+[21Dec2025 23:29:31.723] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Timed out
+[21Dec2025 23:29:31.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 23:29:43.792] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:60779] logged in with entity id 127981 at (196.14850505225414, 73.0, 69.31003521467228)
+[21Dec2025 23:29:43.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 23:30:39.675] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 23:30:39.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 23:30:41.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ moved too quickly! -4.949893782242896,0.2987031463477763,-9.030939433814659
+[21Dec2025 23:30:51.828] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:56515] logged in with entity id 128236 at (195.53946593430638, 72.5, 63.69999998807907)
+[21Dec2025 23:30:51.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 23:30:55.721] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Timed out
+[21Dec2025 23:30:55.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 23:30:58.921] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Timed out
+[21Dec2025 23:30:58.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 23:31:07.729] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Qiuu__[/127.199.55.203:42739] logged in with entity id 128281 at (198.29470957879823, 72.0, 55.92898760581649)
+[21Dec2025 23:31:07.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ joined the game
+[21Dec2025 23:31:36.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT moved too quickly! -0.3168729781545494,0.8800391385729398,-10.175849388844881
+[21Dec2025 23:32:03.126] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Idirsex2000[/127.178.240.157:52467] logged in with entity id 128507 at (192.0233886431445, 73.0, 68.33348290395034)
+[21Dec2025 23:32:03.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 joined the game
+[21Dec2025 23:32:33.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ has made the advancement [What a Deal!]
+[21Dec2025 23:32:34.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Ghost
+[21Dec2025 23:32:34.774] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is fda89685-de6d-4a46-a9da-8be565fe840a
+[21Dec2025 23:32:52.273] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 23:32:52.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 23:33:06.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: visatap23_YT[/127.69.163.222:56719] logged in with entity id 128954 at (202.15766392245524, 72.0, -51.31401064598556)
+[21Dec2025 23:33:06.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT joined the game
+[21Dec2025 23:33:15.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was slain by Ghost
+[21Dec2025 23:33:15.876] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 86ddfb6e-3386-462d-a235-b61ac4fbf9de
+[21Dec2025 23:35:37.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ hit the ground too hard
+[21Dec2025 23:35:37.532] [Server thread/INFO] [gravestone/]: The death ID of player Qiuu__ is 52238ea7-c4b0-43f3-870c-d63a089657f5
+[21Dec2025 23:35:45.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: visatap23_YT lost connection: Disconnected
+[21Dec2025 23:35:45.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: visatap23_YT left the game
+[21Dec2025 23:35:59.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 was fireballed by Blaze
+[21Dec2025 23:35:59.724] [Server thread/INFO] [gravestone/]: The death ID of player Idirsex2000 is 7b673103-9908-4110-a582-70b9b1e98966
+[21Dec2025 23:36:30.178] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@77e29f42[id=<null>,name=visatap23_YT,properties={},legacy=false] (/127.69.163.222:49209) lost connection: Disconnected
+[21Dec2025 23:37:02.579] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@278b31e0[id=<null>,name=visatap23_YT,properties={},legacy=false] (/127.69.163.222:53233) lost connection: Disconnected
+[21Dec2025 23:37:25.822] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@e098120[id=<null>,name=visatap23_YT,properties={},legacy=false] (/127.69.163.222:59669) lost connection: Disconnected
+[21Dec2025 23:37:52.429] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Qiuu__ lost connection: Disconnected
+[21Dec2025 23:37:52.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Qiuu__ left the game
+[21Dec2025 23:37:52.438] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Idirsex2000 lost connection: Disconnected
+[21Dec2025 23:37:52.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Idirsex2000 left the game
+[21Dec2025 23:37:52.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Dec2025 23:37:52.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Dec2025 23:37:52.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Dec2025 23:37:52.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Dec2025 23:37:54.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[21Dec2025 23:37:54.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[21Dec2025 23:37:54.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[21Dec2025 23:37:54.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[21Dec2025 23:37:54.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[21Dec2025 23:37:54.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[21Dec2025 23:37:54.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[21Dec2025 23:37:54.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[21Dec2025 23:37:54.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[21Dec2025 23:37:54.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Dec2025 23:37:54.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Dec2025 23:37:54.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[21Dec2025 23:37:54.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Dec2025 23:37:54.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[21Dec2025 23:37:54.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[21Dec2025 23:37:54.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
